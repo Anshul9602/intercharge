@@ -68,31 +68,32 @@
 
                         </ul>
                     </li>
-                    <li class="dropdown"><a href="#">Solutions <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                    <li class="dropdown"><a href="#">Partner<i class="bi bi-chevron-down dropdown-indicator"></i></a>
                         <ul>
-                            <li><a href="<?php echo base_url('Cpo'); ?>">ChargeSol for CPOs</a></li>
-                            <li><a href="<?php echo base_url('OEMs'); ?>">ChargeSol OEMs</a></li>
+                            <li><a href="<?php echo base_url('Fleet_Operators'); ?>">Fleet</a></li>
+                            <li><a href="<?php echo base_url(''); ?>">Automaker</a></li>
 
-                            <li><a href="<?php echo base_url('Fleet_Operators'); ?>">ChargeSol for Fleet Operators</a>
-                            </li>
-                            <li><a href="<?php echo base_url('Other'); ?>">Other Businesses</a></li>
+                            <li><a href="<?php echo base_url('Cpo'); ?>">CPO</a>                 </li>
+                            <li><a href="<?php echo base_url(''); ?>">Host</a>                 </li>
+                            <li><a href="<?php echo base_url('Other'); ?>">Businesses</a></li>
 
                         </ul>
                     </li>
-
-                    <li class="dropdown"><a href="#"><span>Company</span> <i
-                                class="bi bi-chevron-down dropdown-indicator"></i></a>
+                    <li><a href="<?php echo base_url(''); ?>">Consulting</a></li>
+                    <li><a href="<?php echo base_url(''); ?>">ChargeShare</a></li>
+                    <li class="dropdown "><a href="#">About Us <i class="bi bi-chevron-down dropdown-indicator"></i></a>
                         <ul>
+                            <li><a href="<?php echo base_url('Cpo'); ?>">Mission & Vision </a></li>
+                            <li><a href="<?php echo base_url('OEMs'); ?>">Partners</a></li>
 
-                            <li><a href="<?php echo base_url('About_Us'); ?>"><span>About Us</span> </a>
+                            <li><a href="<?php echo base_url('Fleet_Operators'); ?>">Sustainability</a>
                             </li>
-
-                            <li><a href="<?php echo base_url('Career'); ?>">Career</a></li>
-
-
+                            
                         </ul>
                     </li>
-                    <li><a href="<?php echo base_url('Contact1'); ?>">Contact</a></li>
+
+                    
+                    <li><a href="<?php echo base_url(''); ?>">LetsConnect</a></li>
                 </ul>
             </nav><!-- .navbar -->
 
