@@ -70,7 +70,7 @@
                     <li class="dropdown"><a href="#">Product <i class="bi bi-chevron-down dropdown-indicator"></i></a>
                         <ul>
                             <li><a href="<?php echo base_url('CPMS'); ?>">CPMS</a></li>
-                            <li><a href="<?php echo base_url(''); ?>">App</a></li>
+                            <li><a href="<?php echo base_url('App'); ?>">App</a></li>
                             <li><a href="<?php echo base_url(''); ?>">FM SaaS</a> </li>
 
 
