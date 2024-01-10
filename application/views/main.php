@@ -6,6 +6,29 @@
 
 <main id="main">
   <section class="top p-0">
+  <div style="position: relative;">
+      <!-- Video Overlay -->
+      <div style=" top: 0; left: 0; width: 100%; height:90vh; z-index: 1;    background: black;">
+        <video id="backgroundVideo" width="100%" height="100%" muted autoplay loop preload="auto"
+          style="object-fit: cover;    opacity: 0.5;">
+          <source src="assets/img/Homepage.mp4" type="video/mp4">
+        </video>
+      </div>
+
+      <!-- Centered Text Overlay -->
+      <div
+        style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; color: white; z-index: 2;">
+        
+        <h3 class="fusion-title-heading title-heading-center fusion-responsive-typography-calculated"
+          style="margin: 0; font-size: 1.5em;  line-height: 1.2;">
+          <span style="letter-spacing: 2px; line-height: 36px;"> Get Started with the widest eRoaming network that will change</span>
+        </h3>
+        <h1 style="margin: 0; font-size: 4em; --fontSize: 26; ">The way you charge your EV on-the-go! </h1>
+      </div>
+
+      <!-- Additional Centered Text After Video -->
+
+    </div>
     <div class="hero-section ehite wf-section">
       <div>
         <div class="container">

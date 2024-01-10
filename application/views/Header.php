@@ -41,14 +41,20 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+
+  <style>.header {
+    background-color: transparent;
+    position: absolute;
+}</style>
 </head>
 
 <body>
+    
 
     <!-- ======= Header ======= -->
     <!-- End Top Bar -->
 
-    <header id="header" class="header d-flex align-items-center addclass nav-down">
+    <header id="header" class="header d-flex align-items-center addclass nav-down" style="width: 100%;">
 
         <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
             <a href="<?php echo base_url(); ?>" class="logo d-flex align-items-center">
