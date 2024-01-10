@@ -41,15 +41,17 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-
-  <style>.header {
-    background-color: transparent;
-    position: absolute;
-}</style>
+  <script src="
+  https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+  "></script>
+  <link href="
+  https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+  " rel="stylesheet">
+    
 </head>
 
 <body>
-    
+
 
     <!-- ======= Header ======= -->
     <!-- End Top Bar -->
@@ -64,13 +66,13 @@
             </a>
             <nav id="navbar" class="navbar">
                 <ul>
-                    
+
                     <li class="dropdown"><a href="#">Product <i class="bi bi-chevron-down dropdown-indicator"></i></a>
                         <ul>
-                            <li><a href="<?php echo base_url(''); ?>">CPMS</a></li>
+                            <li><a href="<?php echo base_url('CPMS'); ?>">CPMS</a></li>
                             <li><a href="<?php echo base_url(''); ?>">App</a></li>
                             <li><a href="<?php echo base_url(''); ?>">FM SaaS</a> </li>
-                           
+
 
                         </ul>
                     </li>
@@ -79,8 +81,8 @@
                             <li><a href="<?php echo base_url('Fleet_Operators'); ?>">Fleet</a></li>
                             <li><a href="<?php echo base_url(''); ?>">Automaker</a></li>
 
-                            <li><a href="<?php echo base_url('Cpo'); ?>">CPO</a>                 </li>
-                            <li><a href="<?php echo base_url(''); ?>">Host</a>                 </li>
+                            <li><a href="<?php echo base_url('Cpo'); ?>">CPO</a> </li>
+                            <li><a href="<?php echo base_url(''); ?>">Host</a> </li>
                             <li><a href="<?php echo base_url('Other'); ?>">Businesses</a></li>
 
                         </ul>
@@ -94,11 +96,11 @@
 
                             <li><a href="<?php echo base_url('Fleet_Operators'); ?>">Sustainability</a>
                             </li>
-                            
+
                         </ul>
                     </li>
 
-                    
+
                     <li><a href="<?php echo base_url(''); ?>">LetsConnect</a></li>
                 </ul>
             </nav><!-- .navbar -->

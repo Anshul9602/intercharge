@@ -21,7 +21,7 @@
 /* Colors */
 :root {
   --color-default: #222222;
-  --color-primary: #f26522;
+  --color-primary: #00243a;
   --color-secondary: #f26522;
 
   --color-white: hsl(0, 0%, 100%);
@@ -836,7 +836,7 @@ section {
 .charging-section {
   padding-top: 100px;
   padding-bottom: 100px;
-  background-color: #f9fcfb;
+  background-color: #87CEEB;
 }
 
 .row._w-1029px {
