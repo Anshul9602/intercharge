@@ -1,6 +1,15 @@
 <link href="<?php echo base_url(); ?>/assets/css/mainpage.css" rel="stylesheet">
 
 <style>
+
+
+
+    .splide__arrow--prev {
+        left: -3em;
+      }
+      .splide__arrow--next {
+        right: -2em;
+      }
     .wf-section {
         padding-top: 96px;
         padding-bottom: 96px;
@@ -27,7 +36,7 @@
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         transition: 0.3s;
         border-radius: 20px;
-        background-color: rgb(164, 101, 222);
+        background-color:#17a398 ;
         margin: 1%;
     }
 
@@ -35,8 +44,9 @@
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         transition: 0.3s;
         border-radius: 20px;
-        background-color: #87CEEB;
+        background-color: #4b006e;
         padding: 5%;
+        color:#fff;
     }
     .bgg {
         
@@ -85,58 +95,72 @@
             <div class="col-md-2_5 card1 text-center p-4">
                 <img src="assets/img/icon/1.png" alt="" width="50">
                 <h6 class="mt-3" style="color: #fff;">OCPI 2.1,2 and 2.2</h6>
+                <i class="bi bi-chevron-down" style="color:#fff"></i>
             </div>
             <div class="col-md-2_5 card1 text-center p-4">
                 <img src="assets/img/icon/1.png" alt="" width="50">
                 <h6 class="mt-3" style="color: #fff;">OCPP 2.1,2 and 2.2</h6>
+                <i class="bi bi-chevron-down" style="color:#fff"></i>
             </div>
             <div class="col-md-2_5 card1 text-center p-4">
                 <img src="assets/img/icon/1.png" alt="" width="50">
                 <h6 class="mt-3" style="color: #fff;">Full data isolation</h6>
+                <i class="bi bi-chevron-down" style="color:#fff"></i>
             </div>
             <div class="col-md-2_5 card1 text-center p-4">
                 <img src="assets/img/icon/1.png" alt="" width="50">
                 <h6 class="mt-3" style="color: #fff;">Remote start/stop</h6>
+                <i class="bi bi-chevron-down" style="color:#fff"></i>
             </div>
             <div class="col-md-2_5 card1 text-center p-4">
                 <img src="assets/img/icon/1.png" alt="" width="50">
                 <h6 class="mt-3" style="color: #fff;">REID based charging</h6>
+                <i class="bi bi-chevron-down" style="color:#fff"></i>
             </div>
             <div class="col-md-2_5 card1 text-center p-4">
                 <img src="assets/img/icon/1.png" alt="" width="50">
                 <h6 class="mt-3" style="color: #fff;">Ad-hoc credit cards payments support</h6>
+                <i class="bi bi-chevron-down" style="color:#fff"></i>
             </div>
             <div class="col-md-2_5 card1 text-center p-4">
                 <img src="assets/img/icon/1.png" alt="" width="50">
                 <h6 class="mt-3" style="color: #fff;">User Mansgement</h6>
+                <i class="bi bi-chevron-down" style="color:#fff"></i>
             </div>
             <div class="col-md-2_5 card1 text-center p-4">
                 <img src="assets/img/icon/1.png" alt="" width="50">
                 <h6 class="mt-3" style="color: #fff;">Dynamic and Static Load Management </h6>
+                <i class="bi bi-chevron-down" style="color:#fff"></i>
             </div>
             <div class="col-md-2_5 card1 text-center p-4">
                 <img src="assets/img/icon/1.png" alt="" width="50">
                 <h6 class="mt-3" style="color: #fff;">Reporting and Analytics</h6>
+                <i class="bi bi-chevron-down" style="color:#fff"></i>
             </div>
             <div class="col-md-2_5 card1 text-center p-4">
                 <img src="assets/img/icon/1.png" alt="" width="50">
                 <h6 class="mt-3" style="color: #fff;">OCPP live loge debugging</h6>
+                <i class="bi bi-chevron-down" style="color:#fff"></i>
             </div>
             <div class="col-md-2_5 card1 text-center p-4">
                 <img src="assets/img/icon/1.png" alt="" width="50">
                 <h6 class="mt-3" style="color: #fff;">OCPI love logs debugging</h6>
+                <i class="bi bi-chevron-down" style="color:#fff"></i>
             </div>
             <div class="col-md-2_5 card1 text-center p-4">
                 <img src="assets/img/icon/1.png" alt="" width="50">
                 <h6 class="mt-3" style="color: #fff;">Custom branding</h6>
+                <i class="bi bi-chevron-down" style="color:#fff"></i>
             </div>
             <div class="col-md-2_5 card1 text-center p-4">
                 <img src="assets/img/icon/1.png" alt="" width="50">
                 <h6 class="mt-3" style="color: #fff;">Hubs support</h6>
+                <i class="bi bi-chevron-down" style="color:#fff"></i>
             </div>
             <div class="col-md-2_5 card1 text-center p-4">
                 <img src="assets/img/icon/1.png" alt="" width="50">
                 <h6 class="mt-3" style="color: #fff;">EMA_ID</h6>
+                <i class="bi bi-chevron-down" style="color:#fff"></i>
             </div>
 
         </div>
@@ -146,7 +170,7 @@
     <div class="container mt-5">
         <div class="row">
             <div class="col-md-12 pb-5">
-                <h2 class="text-center">Imprtant Features </h2>
+                <h2 class="text-center">Important Features </h2>
             </div>
             <div class="col-md-3 p-4">
                 <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-ev-station" viewBox="0 0 16 16">
@@ -194,7 +218,7 @@
         </div>
     </div>
     <div class="container mt-5" style="">
-        <h2>Upcomine Events</h2>
+        <h2>Upcoming Events</h2>
         <div class=" ">
             <div class="splide upevent p-5" role="group" aria-label="Splide Basic HTML Example">
                 <div class="splide__track">
@@ -205,23 +229,23 @@
                             <div class="cards11">
                                 <h3>Go Massive Earth Climate</h3>
                                 <div class="row">
-                                    <div class="col-md-3">
-                                        <i class="bi bi-calendar-minus-fill"></i> &nbsp<span>20 jan</span>
+                                    <div class="col-md-4" style="padding-bottom: 20px;">
+                                        <i class="bi bi-calendar-minus-fill"></i> &nbsp<span>20th Jan</span>
                                     </div>
                                     <div class="col-md-6">
-                                        <i class="bi bi-geo-alt"></i> &nbsp<span>Jaipur,Raj</span>
+                                        <i class="bi bi-geo-alt"></i> &nbsp<span>Jaipur, Raj.</span>
                                     </div>
                                     <div class="col-md-12">
-                                        Last Date for registration : 15th jan
+                                        Last Date For Registration: 15th Jan
                                     </div>
 
                                 </div>
-                                <div class="row justify-content-between mt-3">
+                                <div class="row justify-content-between pt-4">
                                     <div class="col-md-5">
-                                        <button class="btn btn-primary"> View Details</button>
+                                        <button class="btn btn-primary" style="background-color: #17a398;    border: none;"> View Details</button>
                                     </div>
                                     <div class="col-md-5">
-                                        <button class="btn btn-secondary"> Register Now</button>
+                                        <button class="btn btn-secondary" style="background-color: #7e9b8f;    border: none;"> Register Now</button>
                                     </div>
                                 </div>
                             </div>

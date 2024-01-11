@@ -61,7 +61,7 @@
         <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
             <a href="<?php echo base_url(); ?>" class="logo d-flex align-items-center">
                 <!-- Uncomment the line below if you also wish to use an image logo -->
-                <img src="assets/img/logo2.png" style="max-width:250px;" alt="">
+                <img src="assets/img/logo.png" style="max-width:250px;" alt="">
                 <!-- <h1>ChargeSol<span>.</span></h1>  -->
             </a>
             <nav id="navbar" class="navbar">
@@ -71,7 +71,7 @@
                         <ul>
                             <li><a href="<?php echo base_url('CPMS'); ?>">CPMS</a></li>
                             <li><a href="<?php echo base_url('App'); ?>">App</a></li>
-                            <li><a href="<?php echo base_url(''); ?>">FM SaaS</a> </li>
+                            <li><a href="<?php echo base_url('FM'); ?>">FM SaaS</a> </li>
 
 
                         </ul>
@@ -101,7 +101,7 @@
                     </li>
 
 
-                    <li><a href="<?php echo base_url(''); ?>">LetsConnect</a></li>
+                    <li><a href="<?php echo base_url(''); ?>">Lets Connect</a></li>
                 </ul>
             </nav><!-- .navbar -->
 

@@ -7,6 +7,9 @@
     background-color: transparent;
     position: absolute;
   }
+  .navbar a,
+  .navbar a:focus {
+  color:#fff;}
 </style>
 <style>
   .first1 {
@@ -91,29 +94,29 @@
 
   </section>
 
-  <section class="charging-section wf-section ">
+  <section class=" wf-section ">
     <div class="container">
       <div class="row">
         <div class="col-md-3">
-          <h3 style="color: #00243a;font-weight:600;">1035+</h3>
+          <h3 style="color: #013220;font-weight:600;">1035+</h3>
           <p>Companies connected to our platform
 
           </p>
         </div>
         <div class="col-md-3">
-          <h3 style="color: #00243a;font-weight:600;">10m+</h3>
+          <h3 style="color: #013220;font-weight:600;">10m+</h3>
           <p>EV drivers reached globally
 
           </p>
         </div>
         <div class="col-md-3">
-          <h3 style="color: #00243a;font-weight:600;">36m+</h3>
+          <h3 style="color: #013220;font-weight:600;">36m+</h3>
           <p>Charging transations every year
 
           </p>
         </div>
         <div class="col-md-3">
-          <h3 style="color: #00243a;font-weight:600;">400k+</h3>
+          <h3 style="color: #013220;font-weight:600;">400k+</h3>
           <p>Charging transations every year
 
           </p>
@@ -200,14 +203,23 @@
   <style>
     .bold {
       font-weight: 600;
-      color: #f26522;
+      color: #013220;
     }
-
+.auth{
+color:#203635;
+font-weight: 600;
+}
+.splide__arrow--prev {
+  left: -3em;
+}
+.splide__arrow--next {
+  right: -2em;
+}
     .why p {
       font-size: 15px;
     }
   </style>
-  <section class="charging-section wf-section ">
+  <section class=" wf-section " style="background-color: #fff;">
     <div class="container">
       <div class="splide logos" role="group" aria-label="Splide Basic HTML Example">
         <div class="splide__track">
@@ -252,7 +264,7 @@
     <div class="container py-5">
       <div class="whyChargeSol-title row">
         <div class="col">
-          <h1 class="fw-bold text-start mb-4">Why <span class="teal">ChargeSol</span></h1>
+          <h1 class="fw-bold text-start mb-4">Why <span style="color:#203635">ChargeSol</span></h1>
           <p style="font-size:18px;    font-weight: 600;">
             We aim to provide an integrated platform that builds a vast network of aggregated chargers to provide access
             to numerous eMobility partners. Our unified open roaming network aims to bridge the gap between Charge point
@@ -267,7 +279,7 @@
 
         <div class="row  mt-3 mb-3">
           <div class="col-lg-5 col-md-12 col-sm-12 mt-3 mb-3">
-            <h6 class="why-grids-title">Rapidly Growing EV Community</h6>
+            <h5 class="why-grids-title">Rapidly Growing EV Community</h5>
             <p class="p faded mt-16">
               Become a part of the largest EV Community in the country, which aims to have a <span
                 class="bold">network</span> of 1,00,000 chargers and over 5 Million EV drivers
@@ -275,7 +287,7 @@
             <hr>
           </div>
           <div class="col-lg-5 col-md-12 col-sm-12 mt-3 mb-3">
-            <h6 class="why-grids-title">Data-Driven Consultation</h6>
+            <h5 class="why-grids-title">Data-Driven Consultation</h5>
             <p class="p faded mt-16">
               Facilitating 70% of the EV charging transactions through our platform, can empower you to make <span
                 class="bold">better and learned decisions</span>
@@ -283,7 +295,7 @@
             <hr>
           </div>
           <div class="col-lg-5 col-md-12 col-sm-12 mt-3 mb-3">
-            <h6 class="why-grids-title">Simplifying the EV Charging needs</h6>
+            <h5 class="why-grids-title">Simplifying the EV Charging needs</h5>
             <p class="p faded mt-16">
               Making it convenient for EV drivers to <span class="bold">communicate</span> with networks of multiple
               Charge Point Operators, <span class="bold">helping them save</span> Hundred Percent of their customer
@@ -292,7 +304,7 @@
             <hr>
           </div>
           <div class="col-lg-5 col-md-12 col-sm-12 mt-3 mb-3">
-            <h6 class="why-grids-title">Seamless Payments & Payouts</h6>
+            <h5 class="why-grids-title">Seamless Payments & Payouts</h5>
             <p class="p faded mt-16">
               <span class="bold">Realtime reconciliation</span> of payouts, with our Operating System running at the
               back-end, get credits for the charging session directly when the customer makes the payment.
@@ -309,26 +321,26 @@
   <div class="p-0 m-0 charging-section" style="padding-bottom: 100px;">
 
     <div class="row m-0">
-      <div class="col-md-6 p-5" style="background-color: #734792;">
-        <h2 class="" style="width: 60px;background-color: green;color:#fff; padding:10px;    border-radius: 30px;">01
+      <div class="col-md-6 p-5" style="background-color: #44625d;">
+        <h2 class="" style="width: 60px;background-color: #17a398;color:#fff; padding:10px;    border-radius: 30px;">01
         </h2>
         <h2 class="h2 tc mt-4" style="color:#fff;">
-          A <span class="orange">Unified</span> network across all borders
+          A <span style="color:#1b1b1b;">Unified</span> network across all borders
         </h2>
-        <p class="p mt-3" style="color:#fff;">
-          You’ll become a part of the community where you can connect to <span class="teal">thousands of</span>
-          other emobility partners, opening access to thousands of charging stations for all the <span class="teal">EV
+        <p class="p mt-3" style="color:#fff;    font-weight: 500;">
+          You’ll become a part of the community where you can connect to <span style="color:#1b1b1b;    font-weight: 500;">thousands of</span>
+          other emobility partners, opening access to thousands of charging stations for all the <span style="color:#1b1b1b;    font-weight: 500;">EV
             Drivers</span>, regardless of their location. Don’t let market fragmentation get in
           your way. Charge Anywhere.
 
         </p>
       </div>
-      <div class="col-md-6 p-5" style="background-color: #4B0082;">
-        <h2 class="" style="width: 60px;background-color: green;color:#fff; padding:10px;    border-radius: 30px;">02
+      <div class="col-md-6 p-5" style="background-color: #203635;">
+        <h2 class="" style="width: 60px;background-color: #17a398;color:#fff; padding:10px;    border-radius: 30px;">02
         </h2>
         <h2 class="h2 tc mt-4" style="color: #fff;">
           Charge Anywhere and<br />
-          <span class="teal"> Everywhere</span>
+          <span style="color:#1b1b1b;    font-weight: 500;"> Everywhere</span>
         </h2>
         <p class="p mt-3" style="color:#fff;">
 
@@ -342,7 +354,7 @@
   <section class="charging-section wf-section ">
     <div class="container">
       <div class="hed">
-        <h1 class="text-center text-white pb-5">
+        <h1 class="text-center pb-5" style="color:#4b006e;    font-weight: 500;">
           Read the reviews
         </h1>
       </div>
@@ -353,7 +365,7 @@
               <div class="dec p-3">
                 <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore nostrum debitis fugit praesentium!
                   Iusto omnis hic, ipsa dicta dolor tempore soluta natus velit"</p>
-                <div class="auth mt-5">
+                <div class="auth mt-3">
                   Ingrid Correa
                 </div>
               </div>
