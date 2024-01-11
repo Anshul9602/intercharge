@@ -116,7 +116,7 @@
                             <div role="list" class="collection-list-2 w-dyn-items">
                                 <div role="listitem" class="w-dyn-item">
                                     <div class="team-item-wrapper">
-                                        <div style="background-image:url(<?php echo base_url(); ?>assets/img/male.png)"
+                                        <div style="background-image:url('assets/img/male.png')"
                                             class="div-block-1489"></div>
                                         <div class="p-18 mt-20">Rahul </div>
                                         <div class="p-15">CEO</div>
@@ -135,7 +135,7 @@
                             <div role="list" class="collection-list-2 w-dyn-items row">
                                 <div role="listitem" class="w-dyn-item col-md-12 col-sm-12 tc">
                                     <div class="team-item-wrapper">
-                                        <div style="background-image:url(<?php echo base_url(); ?>assets/img/female.png)"
+                                        <div style="background-image:url(assets/img/female.png)"
                                             class="div-block-1489"></div>
                                         <div class="p-18 mt-20">Ana-Maria Tonita </div>
                                         <div class="p-15">Chief of Staff </div>
@@ -143,7 +143,7 @@
                                 </div>
                                 <div role="listitem" class="w-dyn-item col-md-12 col-sm-12 tc">
                                     <div class="team-item-wrapper">
-                                        <div style="background-image:url(<?php echo base_url(); ?>assets/img/female.png)"
+                                        <div style="background-image:url(assets/img/female.png)"
                                             class="div-block-1489"></div>
                                         <div class="p-18 mt-20">Ye Jiang </div>
                                         <div class="p-15">Senior Manager Global Operations</div>
