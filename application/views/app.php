@@ -24,7 +24,7 @@
     }
 
     .bgg {
-        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(7%, #0a0f1a), color-stop(20%, rgba(13, 17, 23, 0))), radial-gradient(circle farthest-side at -25% 150%, #0a0f1a 48%, rgba(13, 17, 23, 0) 65%), radial-gradient(circle farthest-corner at -25% -125%, rgba(13, 17, 23, 0) 50%, #0a0f1a 70%, rgba(13, 17, 23, 0) 72%), radial-gradient(circle farthest-corner at 0 -50%, #0a0f1a 32%, hsla(0, 0%, 100%, 0) 62%), radial-gradient(circle farthest-side at 0 -25%, #007252 50%, rgba(13, 17, 23, 0) 72%), radial-gradient(circle farthest-corner at 50% -100%, #05f 26%, rgba(13, 17, 23, 0) 72%);
+
         background-image: linear-gradient(180deg, #0a0f1a 7%, rgba(13, 17, 23, 0) 20%), radial-gradient(circle farthest-side at -25% 150%, #0a0f1a 48%, rgba(13, 17, 23, 0) 65%), radial-gradient(circle farthest-corner at -25% -125%, rgba(13, 17, 23, 0) 50%, #0a0f1a 70%, rgba(13, 17, 23, 0) 72%), radial-gradient(circle farthest-corner at 0 -50%, #0a0f1a 32%, hsla(0, 0%, 100%, 0) 62%), radial-gradient(circle farthest-side at 0 -25%, #007252 50%, rgba(13, 17, 23, 0) 72%), radial-gradient(circle farthest-corner at 50% -100%, #05f 26%, rgba(13, 17, 23, 0) 72%);
         background-position: 0 0, 0 0, 0 0, 0 0, 0 0, 0 0;
         background-size: auto, auto, auto, auto, auto, auto
@@ -57,7 +57,81 @@
         </div>
         <hr>
     </div>
+</section>
+<section style="">
+    <div class="container">
+        <div class="row mt-4 pb-5" style="    align-items: center;">
+            <div class="col-md-10 pb-5">
+                <h2> Find available chargepoints nearest to you anywhere.</h2>
+            </div>
+            <div class="col-md-7 mt-4">
+                <img src="assets/img/clients/app2.png" alt="">
+            </div>
+            <div class="col-md-4 mt-4 row">
+                <hr>
+               <div class="col-md-2"><i class="bi bi-check" style="font-size:25px;"></i></div>
+               <div class="col-md-10">
+                <p>Discover chargepoints across all major networks for both your two-wheeler and four-wheeler.</p>
+               </div>
+               <hr>
+               <div class="col-md-2"><i class="bi bi-check"style="font-size: 25px;"></i></div>
+               <div class="col-md-10">
+                <p>Filter by your vehicle connector type to find the perfect chargepoint.</p>
+               </div>
+            </div>
 
+
+            
+            <div class="col-md-4 mt-4 row">
+                <hr>
+               <div class="col-md-2"><i class="bi bi-check" style="font-size:25px;"></i></div>
+               <div class="col-md-10">
+                <p>
+                    Roaming-enabled on multiple chargepoints means you can access chargers of multiple brands from a single app.</p>
+               </div>
+               <hr>
+               <div class="col-md-2"><i class="bi bi-check"style="font-size: 25px;"></i></div>
+               <div class="col-md-10">
+                <p>One of the Largest chargepoint aggregators of chargepoints in India.</p>
+               </div>
+            </div>
+            <div class="col-md-7 mt-4">
+                <img src="assets/img/clients/app3.png" alt="">
+            </div>
+            <div class="col-md-7 mt-4">
+                <img src="assets/img/clients/app4.png" alt="">
+            </div>
+            <div class="col-md-4 mt-4 row">
+                <hr>
+               <div class="col-md-2"><i class="bi bi-check" style="font-size:25px;"></i></div>
+               <div class="col-md-10">
+                <p>
+                    Reliable and feature-rich information of chargepoints.</p>
+               </div>
+               <hr>
+               <div class="col-md-2"><i class="bi bi-check"style="font-size: 25px;"></i></div>
+               <div class="col-md-10">
+                <p>Find up-to-date station information, dynamic status, reviews and available prediction for chargepoints.</p>
+               </div>
+               <hr>
+               <div class="col-md-2"><i class="bi bi-check"style="font-size: 25px;"></i></div>
+               <div class="col-md-10">
+                <p>Review and check-in (coming soon) at chargepoints to help co-drivers.</p>
+               </div>
+               <hr>
+               <div class="col-md-2"><i class="bi bi-check"style="font-size: 25px;"></i></div>
+               <div class="col-md-10">
+                <p>Find verified tariff for all connector-types of chargepoints.</p>
+               </div>
+               <hr>
+               <div class="col-md-2"><i class="bi bi-check"style="font-size: 25px;"></i></div>
+               <div class="col-md-10">
+                <p>CPO (Chargepoint-data) controlled data ensures data is almost always reliable and correct.</p>
+               </div>
+            </div>
+            
+        </div>
+    </div>
     <div class="section-3 wf-section">
         <div>
             <div class="container ready_bg">
@@ -78,8 +152,8 @@
             </div>
         </div>
     </div>
-</section>
 
+</section>
 
 <script>
     var splide = new Splide('.upevent', {

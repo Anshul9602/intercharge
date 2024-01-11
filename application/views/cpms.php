@@ -39,7 +39,7 @@
         padding: 5%;
     }
     .bgg {
-        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(7%, #0a0f1a), color-stop(20%, rgba(13, 17, 23, 0))), radial-gradient(circle farthest-side at -25% 150%, #0a0f1a 48%, rgba(13, 17, 23, 0) 65%), radial-gradient(circle farthest-corner at -25% -125%, rgba(13, 17, 23, 0) 50%, #0a0f1a 70%, rgba(13, 17, 23, 0) 72%), radial-gradient(circle farthest-corner at 0 -50%, #0a0f1a 32%, hsla(0, 0%, 100%, 0) 62%), radial-gradient(circle farthest-side at 0 -25%, #007252 50%, rgba(13, 17, 23, 0) 72%), radial-gradient(circle farthest-corner at 50% -100%, #05f 26%, rgba(13, 17, 23, 0) 72%);
+        
         background-image: linear-gradient(180deg, #0a0f1a 7%, rgba(13, 17, 23, 0) 20%), radial-gradient(circle farthest-side at -25% 150%, #0a0f1a 48%, rgba(13, 17, 23, 0) 65%), radial-gradient(circle farthest-corner at -25% -125%, rgba(13, 17, 23, 0) 50%, #0a0f1a 70%, rgba(13, 17, 23, 0) 72%), radial-gradient(circle farthest-corner at 0 -50%, #0a0f1a 32%, hsla(0, 0%, 100%, 0) 62%), radial-gradient(circle farthest-side at 0 -25%, #007252 50%, rgba(13, 17, 23, 0) 72%), radial-gradient(circle farthest-corner at 50% -100%, #05f 26%, rgba(13, 17, 23, 0) 72%);
         background-position: 0 0, 0 0, 0 0, 0 0, 0 0, 0 0;
         background-size: auto, auto, auto, auto, auto, auto
@@ -77,8 +77,8 @@
             </div>
         </div>
     </div>
-
-
+</section>
+<section style="background-color: #eef5db;">
     <div class="container mt-5 pb-5">
 
         <div class="row justify-content-center">
@@ -260,8 +260,8 @@
             </div>
         </div>
     </div>
-</section>
 
+</section>
 
 <script>
     var splide = new Splide('.upevent', {
