@@ -11,7 +11,7 @@
 
 .social_icon {
     font-size: 25px;
-    color: #f26522 !important;
+    color: #17a398 !important;
     display: none;
 }
 
@@ -38,7 +38,7 @@ hr {
 .formContainer {
     max-width: 700px;
     padding: 20px;
-    background-color: #f26522;
+    background-color: #17a398;
 }
 
 
@@ -184,7 +184,7 @@ hr {
         </div>
     </div>
 </div>
-<footer class="footer-no-negative wf-section">
+<footer class="footer-no-negative wf-section pb-0">
     <div>
         <div class="container">
             <div class="  footer-row-1 row tc" style="    justify-content: space-around;">

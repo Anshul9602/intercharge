@@ -538,7 +538,7 @@ section {
     inset: 0;
     padding: 50px 0 10px 0;
     margin: 0;
-    background: #f26522;
+    background: #17a398;
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
@@ -594,7 +594,7 @@ section {
     padding: 10px 0;
     margin: 10px 20px;
     transition: all 0.5s ease-in-out;
-    background-color: #f26522;
+    background-color: #17a398;
 
   }
 
@@ -3505,9 +3505,10 @@ a:hover {
   -ms-flex-align: center;
   align-items: center;
   border-radius: 6px;
-  background-color: #f26522;
+  background-color: #17a398;
   color: #fff;
   cursor: pointer;
+  border: none;
 }
 
 .sub-send-btn {

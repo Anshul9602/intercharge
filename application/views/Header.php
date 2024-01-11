@@ -47,7 +47,11 @@
   <link href="
   https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
   " rel="stylesheet">
-    
+    <style>
+        .aside-btn{
+            background-color: #17a398 !important;
+        color:#fff !important;}
+    </style>
 </head>
 
 <body>

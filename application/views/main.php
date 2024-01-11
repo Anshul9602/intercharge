@@ -358,7 +358,7 @@ font-weight: 600;
           Read the reviews
         </h1>
       </div>
-      <div class="splide testi mt-5" role="group" aria-label="Splide Basic HTML Example">
+      <div class="splide testi mt-0" role="group" aria-label="Splide Basic HTML Example">
         <div class="splide__track">
           <ul class="splide__list">
             <li class="splide__slide">
