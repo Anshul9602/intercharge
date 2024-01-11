@@ -190,7 +190,7 @@ hr {
             <div class="  footer-row-1 row tc" style="    justify-content: space-around;">
                 <div class="col-lg-3 col-md-12 col-sm-12  mb-3"><a href="/" aria-current="page"
                         class="w-inline-block w--current">
-                        <img src="assets/img/logo2.png" alt="" style="width:100%;">
+                        <img src="assets/img/logo2.png" alt="" style="width:60%;">
                     </a>
                 </div>
                 <div class="div-block-24 row col-lg-9 col-md-12 col-sm-12 mt-3 mb-3">

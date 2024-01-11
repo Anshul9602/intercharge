@@ -89,9 +89,9 @@
                     </li>
                     <li><a href="<?php echo base_url(''); ?>">Consulting</a></li>
                     <li><a href="<?php echo base_url(''); ?>">ChargeShare</a></li>
-                    <li class="dropdown "><a href="#">About Us <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                    <li class="dropdown "><a href="<?php echo base_url('About_us'); ?>">About Us <i class="bi bi-chevron-down dropdown-indicator"></i></a>
                         <ul>
-                            <li><a href="<?php echo base_url('Cpo'); ?>">Mission & Vision </a></li>
+                            <li><a href="<?php echo base_url('Mission'); ?>">Mission & Vision </a></li>
                             <li><a href="<?php echo base_url('OEMs'); ?>">Partners</a></li>
 
                             <li><a href="<?php echo base_url('Fleet_Operators'); ?>">Sustainability</a>
@@ -101,7 +101,7 @@
                     </li>
 
 
-                    <li><a href="<?php echo base_url(''); ?>">Lets Connect</a></li>
+                    <li><a href="<?php echo base_url('Contact'); ?>">Lets Connect</a></li>
                 </ul>
             </nav><!-- .navbar -->
 
