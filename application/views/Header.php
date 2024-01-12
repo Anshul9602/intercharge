@@ -87,7 +87,7 @@
 
                             <li><a href="<?php echo base_url('Cpo'); ?>">CPO</a> </li>
                             <li><a href="<?php echo base_url(''); ?>">Host</a> </li>
-                            <li><a href="<?php echo base_url('Other'); ?>">Businesses</a></li>
+                            <li><a href="<?php echo base_url('Partners'); ?>">Businesses</a></li>
 
                         </ul>
                     </li>
