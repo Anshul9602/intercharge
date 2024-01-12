@@ -201,18 +201,148 @@
     </div>
     <div class="col-md-6">
       <h2 style="font-weight: 600;">Site Host Spotlight: Lazy Acres Natural Market</h2>
-      <p class="mt-3">"Having the EVgo fast chargers has been a premium experience. The EVgo group has offered great support. We're happy to say the chargers can really bring some added value to your customer base."</p>
-        <p class="mt-4">David Schaefer, Store Director, Lazy Acres Natural Market</p>
- 
+      <p class="mt-3">"Having the EVgo fast chargers has been a premium experience. The EVgo group has offered great
+        support. We're happy to say the chargers can really bring some added value to your customer base."</p>
+      <p class="mt-4">David Schaefer, Store Director, Lazy Acres Natural Market</p>
+
 
     </div>
-    
+
 
   </div>
 </section>
+<style>
+  .col-nn{
+    width: 8.6%;
+  }
+  .col-nn1{
+    width: 4%;
+  }
+</style>
 <section class="container">
-  <div class="main">
-    <h1>No Upfront Cost or Maintenance Expenses</h1>
+  <div class="main pb-4">
+    <h1 class="text-center" style="font-weight: 600;">No Upfront Cost or Maintenance Expenses</h1>
+    <p class="mt-3 text-center">EVgo manages everything from permitting and installation to maintenance and
+      industry-leading customer care. Turnkey Fast Charging with No Upfront Cost or Maintenance Expenses</p>
+  </div>
+  <div class="row mt-5">
+    <div class="col-nn text-center">
+      <img src="assets/img/clients/nu1.svg" alt="">
+      <p class="text-center pt-3">Initial
+        Consultation</p>
+    </div>
+    <div class="col-nn1 text-center" style="display: flex;align-items: center;    justify-content: center;">
+      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#7582e1" style="width: 50px;">
+        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+        <g id="SVGRepo_iconCarrier">
+          <path d="M4 12H20M20 12L16 8M20 12L16 16" stroke="#7a7ef0" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round"></path>
+        </g>
+      </svg>
+
+    </div>
+    <div class="col-nn text-center">
+      <img src="assets/img/clients/nu2.svg" alt="">
+      <p class="text-center pt-3">Site
+        Design</p>
+    </div>
+    <div class="col-nn1 text-center" style="display: flex;align-items: center;    justify-content: center;">
+      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#7582e1" style="width: 50px;">
+        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+        <g id="SVGRepo_iconCarrier">
+          <path d="M4 12H20M20 12L16 8M20 12L16 16" stroke="#7a7ef0" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round"></path>
+        </g>
+      </svg>
+
+    </div>
+    <div class="col-nn text-center">
+      <img src="assets/img/clients/nu3.svg" alt="">
+      <p class="text-center pt-3">Equipment
+        Procurement</p>
+    </div>
+    <div class="col-nn1 text-center" style="display: flex;align-items: center;    justify-content: center;">
+      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#7582e1" style="width: 50px;">
+        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+        <g id="SVGRepo_iconCarrier">
+          <path d="M4 12H20M20 12L16 8M20 12L16 16" stroke="#7a7ef0" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round"></path>
+        </g>
+      </svg>
+
+    </div>
+    <div class="col-nn text-center">
+      <img src="assets/img/clients/nu4.svg" alt="">
+      <p class="text-center pt-3">Site
+        Construction</p>
+    </div>
+    <div class="col-nn1 text-center" style="display: flex;align-items: center;    justify-content: center;">
+      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#7582e1" style="width: 50px;">
+        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+        <g id="SVGRepo_iconCarrier">
+          <path d="M4 12H20M20 12L16 8M20 12L16 16" stroke="#7a7ef0" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round"></path>
+        </g>
+      </svg>
+
+    </div>
+    <div class="col-nn text-center">
+      <img src="assets/img/clients/nu5.svg" alt="">
+      <p class="text-center pt-3">Utility
+        Interconnection</p>
+    </div>
+    <div class="col-nn1 text-center" style="display: flex;align-items: center;    justify-content: center;">
+      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#7582e1" style="width: 50px;">
+        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+        <g id="SVGRepo_iconCarrier">
+          <path d="M4 12H20M20 12L16 8M20 12L16 16" stroke="#7a7ef0" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round"></path>
+        </g>
+      </svg>
+
+    </div>
+    <div class="col-nn text-center">
+      <img src="assets/img/clients/nu6.svg" alt="">
+      <p class="text-center pt-3">Site
+        Commissioning</p>
+    </div>
+    <div class="col-nn1 text-center" style="display: flex;align-items: center;    justify-content: center;">
+      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#7582e1" style="width: 50px;">
+        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+        <g id="SVGRepo_iconCarrier">
+          <path d="M4 12H20M20 12L16 8M20 12L16 16" stroke="#7a7ef0" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round"></path>
+        </g>
+      </svg>
+
+    </div>
+    <div class="col-nn text-center">
+      <img src="assets/img/clients/nu7.svg" alt="">
+      <p class="text-center pt-3">Ongoing
+        Maintenance</p>
+    </div>
+    <div class="col-nn1 text-center" style="display: flex;align-items: center;    justify-content: center;">
+      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#7582e1" style="width: 50px;">
+        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+        <g id="SVGRepo_iconCarrier">
+          <path d="M4 12H20M20 12L16 8M20 12L16 16" stroke="#7a7ef0" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round"></path>
+        </g>
+      </svg>
+
+    </div>
+    <div class="col-nn text-center">
+      <img src="assets/img/clients/nu8.svg" alt="">
+      <p class="text-center pt-3">Customer
+        Care</p>
+    </div>
   </div>
 </section>
 
@@ -220,7 +350,6 @@
   var splide = new Splide('.logos', {
     perPage: 6,
     rewind: true,
-
     autoplay: true,
     type: 'loop',
 

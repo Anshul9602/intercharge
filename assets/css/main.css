@@ -22,7 +22,7 @@
 :root {
   --color-default: #1b1b1b;
   --color-primary: #013220;
-  --color-secondary: #4b006e;
+  --color-secondary: #17a398;
 
   --color-white: hsl(0, 0%, 100%);
 }
@@ -169,7 +169,7 @@ section {
   right: 15px;
   bottom: -15px;
   z-index: 99999;
-  background: var(--color-secondary);
+  background: black;
   width: 44px;
   height: 44px;
   border-radius: 50px;
@@ -183,7 +183,7 @@ section {
 }
 
 .scroll-top:hover {
-  background: rgba(248, 90, 64, 0.8);
+  background: #17a398;
   color: #fff;
 }
 
@@ -3547,8 +3547,8 @@ a:hover {
 }
 
 .footer-row-3 {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 10px;
+  padding-bottom: 20px;
 }
 
 .footer-copyw {
