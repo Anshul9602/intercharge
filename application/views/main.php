@@ -354,7 +354,7 @@ font-weight: 600;
   <section class="charging-section wf-section ">
     <div class="container">
       <div class="hed">
-        <h1 class="text-center pb-5" style="color:#4b006e;    font-weight: 500;">
+        <h1 class="text-center pb-5" style="color:#203635;    font-weight: 600;">
           Read the reviews
         </h1>
       </div>
@@ -370,9 +370,6 @@ font-weight: 600;
                 </div>
               </div>
             </li>
-
-
-
 
           </ul>
         </div>
