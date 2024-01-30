@@ -12,10 +12,6 @@
     </div>
   </section>
  
-  
-
-
-
   <div class="jumbotron ab-jumbotron container " style="margin-top: 10%;">
         <h1><span style="font-weight: 400">Disclaimer</span></h1>
         <h2><span style="font-weight: 400">No warranties</span></h2>

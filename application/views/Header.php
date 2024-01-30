@@ -83,7 +83,7 @@
                     <li class="dropdown"><a href="#">Partner<i class="bi bi-chevron-down dropdown-indicator"></i></a>
                         <ul>
                             <li><a href="<?php echo base_url('Fleet_Operators'); ?>">Fleet</a></li>
-                            <li><a href="<?php echo base_url(''); ?>">Automaker</a></li>
+                            <li><a href="<?php echo base_url('Automakers'); ?>">Automaker</a></li>
 
                             <li><a href="<?php echo base_url('Cpo'); ?>">CPO</a> </li>
                             <li><a href="<?php echo base_url(''); ?>">Host</a> </li>

@@ -1,56 +1,82 @@
 <link href="<?php echo base_url(); ?>/assets/css/mainpage.css" rel="stylesheet">
 
 <style>
-.wf-section {
-    padding-top: 96px;
-    padding-bottom: 96px;
-}
+    .splide__arrow--prev {
+        left: -3em;
+    }
 
-.col-md-4 {
-    padding-bottom: 60px;
-}
+    .splide__arrow--next {
+        right: -2em;
+    }
 
-.flip-card-front h4 {
-    font-weight: 600;
-    font-size: 20px;
-}
+    .wf-section {
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
 
-.row.d-flex.h-677.mt-144 {
-    padding-bottom: 100px !important;
-}
+    .col-md-4 {
+        padding-bottom: 60px;
+    }
+
+    .flip-card-front h4 {
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .row.d-flex.h-677.mt-144 {
+        padding-bottom: 100px !important;
+    }
+
+    .col-md-2_5 {
+        width: 18%;
+    }
+
+    .card1 {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        border-radius: 20px;
+        background-color: #17a398;
+        margin: 1%;
+    }
+
+    .cards11 {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        border-radius: 20px;
+        background-color: #4b006e;
+        padding: 5%;
+        color: #fff;
+    }
+
+    .bgg {
+
+        background-image: linear-gradient(180deg, #0a0f1a 7%, rgba(13, 17, 23, 0) 20%), radial-gradient(circle farthest-side at -25% 150%, #0a0f1a 48%, rgba(13, 17, 23, 0) 65%), radial-gradient(circle farthest-corner at -25% -125%, rgba(13, 17, 23, 0) 50%, #0a0f1a 70%, rgba(13, 17, 23, 0) 72%), radial-gradient(circle farthest-corner at 0 -50%, #0a0f1a 32%, hsla(0, 0%, 100%, 0) 62%), radial-gradient(circle farthest-side at 0 -25%, #007252 50%, rgba(13, 17, 23, 0) 72%), radial-gradient(circle farthest-corner at 50% -100%, #05f 26%, rgba(13, 17, 23, 0) 72%);
+        background-position: 0 0, 0 0, 0 0, 0 0, 0 0, 0 0;
+        background-size: auto, auto, auto, auto, auto, auto;
+    }
 </style>
 
-<section class="top p-0">
-    <div class="hero-section ehite ">
+<section class="top p-0 bgg">
+    <div class=" p-4">
         <div>
             <div class="container">
-                <div class="row d-flex h-677 mt-144">
-                    <div class="p1-hero-row-left z-1">
-                        <h1 class="hero-title">Revolutionize Your Charging
-                            <span class="orange">Network with ChargeSol </span>
+                <div class="row d-flex mt-144" style="    align-items: center;">
+                    <div class="col-md-6 z-1 text-white">
+                        <h1 class="hero-title">Your foundation for electric
+                            <span class="orange">Fleet Management </span>
                         </h1>
-                        <p class="p mt-32 _w-582">Make your charging station network interoperable with hundreds of
-                            eMobility charging service providers when you join the ChargeSol network as a charge point
-                            operator (CPO), enabling many more EV drivers to charge at your locations.</p>
+                        <p class="p mt-32 _w-582"></p>
                         <div class="hero-btn-wrapper">
                             <a href="<?php echo base_url('Contact'); ?>"
                                 data-w-id="f4f18225-2f7a-1018-3f68-7b938e7cc7fd"
-                                class="button _50 w-button aside-btn mt-0">Get Started Now</a>
-                            <!--- <a  class="link-block w-inline-block">
-                  <div class="text-block">Find your solution</div>
-                  <img src="https://assets.website-files.com/602cf2b08109ccbc93d7f9ed/602e761f1ca5476d49049024_Vector%20(Stroke).svg" loading="lazy" alt="" class="img _2" style="
-                      transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1)
-                        rotateX(0deg) rotateY(0deg) rotateZ(0deg)
-                        skew(0deg, 0deg);
-                      transform-style: preserve-3d;
-                    " />
-                </a> -->
+                                class="button _50 w-button aside-btn mt-0">Talk to Us’</a>
+
                         </div>
                     </div>
-                    <div class="p1-hero-row-right">
+                    <div class="col-md-6 ">
                         <div class="hero-img-wrapper">
 
-                            <img src="">
+                            <img src="assets/img/clients/fleet.webp">
                         </div>
                     </div>
                 </div>
@@ -58,180 +84,86 @@
             </div>
         </div>
     </div>
+</section>
+<section style="">
+ 
 
-    <div class="hero-section ehite wf-section container">
-        <div>
-            <div class="container text-center">
-
-                <h2 class="aside-title">
-                    Benefits
-                </h2><span class="bar"></span>
-                <div class="row " style="justify-content: space-around;padding-top:70px;">
-                    <div class="col-md-4">
-                        <div class="flip-card">
-                            <div class="flip-card-inner">
-                                <div class="flip-card-front">
-                                    <div class="inner-size ">
-                                        <div class="row">
-                                            <div class="img-icon col-md-12 pb-5">
-                                                <img src="assets/img/icon/1.png" style="width:80px" />
-                                            </div>
-
-                                            <h4 class="col-md-12 ">Increased Visibility & Utilization</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="flip-card-back">
-                                    <div class="inner-size inner-size1">
-
-                                        <p>By listing your charging stations on our platform, you can gain visibility
-                                            and attract more EV owners to use your charging stations. This can lead to
-                                            increased utilization on your chargers, resulting in higher revenue.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+    <div class="container mt-5">
+  
+        <h1 class="mt-5 pb-3 text-center" style="font-weight: 600;">ChargeSol Offers</h1>
+        <div class="row mt-md-5 mt-3">
+            <div class="col-md-6 row col-6 mt-4">
+                <div class="col-md-3 m-auto">
+                    <div class="p-3 m-auto" style="background-color: #007252;width:70px;    border-radius: 50%;">
+                        <svg stroke="currentColor" fill="none" stroke-width="1.5" viewBox="0 0 24 24" aria-hidden="true" class="h-6 w-6 text-white " height="2em" width="2em"style="    font-size: large;" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" d="M11.35 3.836c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m8.9-4.414c.376.023.75.05 1.124.08 1.131.094 1.976 1.057 1.976 2.192V16.5A2.25 2.25 0 0118 18.75h-2.25m-7.5-10.5H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V18.75m-7.5-10.5h6.375c.621 0 1.125.504 1.125 1.125v9.375m-8.25-3l1.5 1.5 3-3.75"></path></svg>
                     </div>
-                    <div class="col-md-4 ">
-                        <div class="flip-card">
-                            <div class="flip-card-inner">
-                                <div class="flip-card-front">
-                                    <div class="inner-size">
-                                        <div class="row">
-                                            <div class="col-md-12 pb-5">
-                                                <img src="assets/img/icon/18.png" style="width:80px" />
-                                            </div>
-                                            <h4 class="col-md-12">Simplified Management</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="flip-card-back">
-                                    <div class="inner-size inner-size1">
-
-                                        <p>Our CSMS can help you manage your charging infrastructure more efficiently by
-                                            providing real-time monitoring and management capabilities. This can help
-                                            you identify and resolve issues quickly, resulting in improved uptime and
-                                            customer satisfaction
-
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="flip-card">
-                            <div class="flip-card-inner">
-                                <div class="flip-card-front">
-                                    <div class="inner-size">
-                                        <div class="row">
-                                            <div class="col-md-12 pb-5">
-                                                <img src="assets/img/icon/17.png" style="width:80px" />
-                                            </div>
-                                            <h4 class="col-md-12">Cost Savings</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="flip-card-back">
-                                    <div class="inner-size inner-size1">
-
-                                        <p>Our platform can help you reduce your operational costs by eliminating the
-                                            need for multiple charging station management systems and reducing
-                                            administrative tasks such as billing and payment processing.
-
-
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="flip-card">
-                            <div class="flip-card-inner">
-                                <div class="flip-card-front">
-                                    <div class="inner-size">
-                                        <div class="row">
-                                            <div class="col-md-12 pb-5">
-                                                <img src="assets/img/icon/16.png" style="width:80px" />
-                                            </div>
-
-                                            <h4 class="col-md-12">Data Insights</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="flip-card-back">
-                                    <div class="inner-size inner-size1">
-
-                                        <p>Our platform can provide you with valuable data insights into your charging
-                                            station usage, including session duration, charging frequency, errors,
-                                            faults, and peak usage times. This information can help you optimize your
-                                            charging infrastructure and plan for future expansion.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="flip-card">
-                            <div class="flip-card-inner">
-                                <div class="flip-card-front">
-                                    <div class="inner-size">
-                                        <div class="row">
-                                            <div class="col-md-12 pb-5">
-                                                <img src="assets/img/icon/14.png" style="width:80px" />
-                                            </div>
-                                            <h4 class="col-md-12">Improved Customer Experience</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="flip-card-back">
-                                    <div class="inner-size inner-size1">
-
-                                        <p>Our platform's single-app solution can provide a seamless and convenient
-                                            experience for EV owners, making it easier for them to locate, access, and
-                                            pay for charging services. This can lead to increased customer satisfaction
-                                            and loyalty.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="flip-card">
-                            <div class="flip-card-inner">
-                                <div class="flip-card-front">
-                                    <div class="inner-size">
-                                        <div class="row">
-                                            <div class="col-md-12 pb-5">
-                                                <img src="assets/img/icon/13.png" style="width:80px" />
-                                            </div>
-                                            <h4 class="col-md-12">Extended Customer Support</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="flip-card-back">
-                                    <div class="inner-size inner-size1">
-
-                                        <p>Our platfform can provide priority based complaints management access on your
-                                            chargers. As an add-on service, you can avail the 24x7 customer support from
-                                            our dedicated support team for ensuring a worry-free charging experience for
-                                            your customers and maintain a strong customer relationship.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
+                   
                 </div>
-
+                <div class="col-md-8 m-auto">
+                    <h3>Transition Planning</h3>
+                    <p>Optimized transition plan, total cost of ownership, and incentives support</p>
+                </div>
+            </div>
+            <div class="col-md-6 row col-6 mt-4">
+                <div class="col-md-3 m-auto">
+                    <div class="p-3 m-auto" style="background-color: #007252;width:70px;    border-radius: 50%;">
+                        <svg stroke="currentColor" fill="none" stroke-width="1.5" viewBox="0 0 24 24" aria-hidden="true" class="h-6 w-6 text-white " height="2em" width="2em"style="    font-size: large;" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" d="M11.35 3.836c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m8.9-4.414c.376.023.75.05 1.124.08 1.131.094 1.976 1.057 1.976 2.192V16.5A2.25 2.25 0 0118 18.75h-2.25m-7.5-10.5H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V18.75m-7.5-10.5h6.375c.621 0 1.125.504 1.125 1.125v9.375m-8.25-3l1.5 1.5 3-3.75"></path></svg>
+                    </div>
+                </div>
+                <div class="col-md-8 m-auto">
+                    <h3>Charger Equipment Provisioning</h3>
+                    <p>Hardware mix to meet fleet needs: L2, 50 kW - 350 kW DCFC</p>
+                </div>
+            </div>
+            <div class="col-md-6 row col-6 mt-4">
+                <div class="col-md-3 m-auto">
+                    <div class="p-3 m-auto" style="background-color: #007252;width:70px;    border-radius: 50%;">
+                        <svg stroke="currentColor" fill="none" stroke-width="1.5" viewBox="0 0 24 24" aria-hidden="true" class="h-6 w-6 text-white " height="2em" width="2em"style="    font-size: large;" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" d="M11.35 3.836c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m8.9-4.414c.376.023.75.05 1.124.08 1.131.094 1.976 1.057 1.976 2.192V16.5A2.25 2.25 0 0118 18.75h-2.25m-7.5-10.5H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V18.75m-7.5-10.5h6.375c.621 0 1.125.504 1.125 1.125v9.375m-8.25-3l1.5 1.5 3-3.75"></path></svg>
+                    </div>
+                </div>
+                <div class="col-md-8 m-auto">
+                    <h3>Infrastructure Deployment</h3>
+                    <p>Design, engineering, permitting, utility coordination, construction, installation, and
+                        commissioning</p>
+                </div>
+            </div>
+            <div class="col-md-6 row col-6 mt-4">
+                <div class="col-md-3 m-auto">
+                    <div class="p-3 m-auto" style="background-color: #007252;width:70px;    border-radius: 50%;">
+                        <svg stroke="currentColor" fill="none" stroke-width="1.5" viewBox="0 0 24 24" aria-hidden="true" class="h-6 w-6 text-white " height="2em" width="2em"style="    font-size: large;" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" d="M11.35 3.836c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m8.9-4.414c.376.023.75.05 1.124.08 1.131.094 1.976 1.057 1.976 2.192V16.5A2.25 2.25 0 0118 18.75h-2.25m-7.5-10.5H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V18.75m-7.5-10.5h6.375c.621 0 1.125.504 1.125 1.125v9.375m-8.25-3l1.5 1.5 3-3.75"></path></svg>
+                    </div>
+                </div>
+                <div class="col-md-8 m-auto">
+                    <h3>ChargeSol and O&M</h3>
+                    <p>SLA-based uptime guarantee, monitoring, operations, maintenance, and 24/7 customer support</p>
+                </div>
+            </div>
+            <div class="col-md-6 row col-6 mt-4">
+                <div class="col-md-3 m-auto">
+                    <div class="p-3 m-auto" style="background-color: #007252;width:70px;    border-radius: 50%;">
+                        <svg stroke="currentColor" fill="none" stroke-width="1.5" viewBox="0 0 24 24" aria-hidden="true" class="h-6 w-6 text-white " height="2em" width="2em"style="    font-size: large;" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" d="M11.35 3.836c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m8.9-4.414c.376.023.75.05 1.124.08 1.131.094 1.976 1.057 1.976 2.192V16.5A2.25 2.25 0 0118 18.75h-2.25m-7.5-10.5H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V18.75m-7.5-10.5h6.375c.621 0 1.125.504 1.125 1.125v9.375m-8.25-3l1.5 1.5 3-3.75"></path></svg>
+                    </div>
+                </div>
+                <div class="col-md-8 m-auto">
+                    <h3>ChargeSol Software & Networking</h3>
+                    <p>Charger & vehicle management and smart charging</p>
+                </div>
+            </div>
+            <div class="col-md-6 row col-6 mt-4">
+                <div class="col-md-3 m-auto">
+                    <div class="p-3 m-auto" style="background-color: #007252;width:70px;    border-radius: 50%;">
+                        <svg stroke="currentColor" fill="none" stroke-width="1.5" viewBox="0 0 24 24" aria-hidden="true" class="h-6 w-6 text-white " height="2em" width="2em"style="    font-size: large;" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" d="M11.35 3.836c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m8.9-4.414c.376.023.75.05 1.124.08 1.131.094 1.976 1.057 1.976 2.192V16.5A2.25 2.25 0 0118 18.75h-2.25m-7.5-10.5H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V18.75m-7.5-10.5h6.375c.621 0 1.125.504 1.125 1.125v9.375m-8.25-3l1.5 1.5 3-3.75"></path></svg>
+                    </div>
+                </div>
+                <div class="col-md-8 m-auto">
+                    <h3>Systems Integrations</h3>
+                    <p>Telematics, fleet, and other third party systems integrations</p>
+                </div>
             </div>
         </div>
     </div>
-
+    <hr>
+ 
 
 
 
@@ -258,4 +190,18 @@
             </div>
         </div>
     </div>
+
 </section>
+
+<script>
+    var splide = new Splide('.upevent', {
+        perPage: 5,
+        rewind: true,
+        gap: '1rem',
+        autoplay: true,
+        type: 'loop',
+        padding: '10rem',
+    });
+
+    splide.mount();
+</script>
