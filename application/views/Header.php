@@ -96,7 +96,7 @@
                     <li class="dropdown "><a href="<?php echo base_url('About_us'); ?>">About Us <i class="bi bi-chevron-down dropdown-indicator"></i></a>
                         <ul>
                             <li><a href="<?php echo base_url('Mission'); ?>">Mission & Vision </a></li>
-                            <li><a href="<?php echo base_url('OEMs'); ?>">Partners</a></li>
+                            <li><a href="<?php echo base_url('Partners'); ?>">Partners</a></li>
 
                             <li><a href="<?php echo base_url('Fleet_Operators'); ?>">Sustainability</a>
                             </li>
