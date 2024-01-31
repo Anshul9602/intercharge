@@ -91,7 +91,7 @@
 
                         </ul>
                     </li>
-                    <li><a href="<?php echo base_url(''); ?>">Consulting</a></li>
+                    <li><a href="<?php echo base_url('Consulting'); ?>">Consulting</a></li>
                     <li><a href="<?php echo base_url(''); ?>">ChargeShare</a></li>
                     <li class="dropdown "><a href="<?php echo base_url('About_us'); ?>">About Us <i class="bi bi-chevron-down dropdown-indicator"></i></a>
                         <ul>

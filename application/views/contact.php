@@ -54,21 +54,21 @@
                 <div class="card hov">
                     <div class="row md-p-5 p-3 tab">
                         <div class="col-md-4 col-4 tablinks" onclick="openCity(event, 'form1')">
-                            <div class="card" style="border-radius: 20px;">
+                            <div class="card" style="border-radius: 20px;height: 81px;align-items: center;justify-content: center;">
                                 <div class="md-p-5 p-1">
                                     <h4>I work at a world class startup company.</h4>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-4 col-4 tablinks" onclick="openCity(event, 'form2')">
-                            <div class="card" style="border-radius: 20px;">
+                            <div class="card" style="border-radius: 20px;height: 81px;align-items: center;justify-content: center;">
                                 <div class="md-p-5 p-1">
                                     <h4>I work for a major corporation.</h4>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-4 col-4 tablinks" onclick="openCity(event, 'form3')">
-                            <div class="card" style="border-radius: 20px;">
+                            <div class="card" style="border-radius: 20px;height: 81px;align-items: center;justify-content: center;">
                                 <div class="md-p-5 p-1">
                                     <h4>I am an angel investor or venture capitalist.</h4>
                                 </div>

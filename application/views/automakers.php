@@ -1,5 +1,10 @@
 <link href="<?php echo base_url(); ?>/assets/css/mainpage.css" rel="stylesheet">
-
+<script src="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+"></script>
+<link href="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+" rel="stylesheet">
 <style>
     .splide__arrow--prev {
         left: -3em;
@@ -48,30 +53,22 @@
         color: #fff;
     }
 
-    .bgg {
-
-        background-image: linear-gradient(180deg, #0a0f1a 7%, rgba(13, 17, 23, 0) 20%), radial-gradient(circle farthest-side at -25% 150%, #0a0f1a 48%, rgba(13, 17, 23, 0) 65%), radial-gradient(circle farthest-corner at -25% -125%, rgba(13, 17, 23, 0) 50%, #0a0f1a 70%, rgba(13, 17, 23, 0) 72%), radial-gradient(circle farthest-corner at 0 -50%, #0a0f1a 32%, hsla(0, 0%, 100%, 0) 62%), radial-gradient(circle farthest-side at 0 -25%, #007252 50%, rgba(13, 17, 23, 0) 72%), radial-gradient(circle farthest-corner at 50% -100%, #05f 26%, rgba(13, 17, 23, 0) 72%);
-        background-position: 0 0, 0 0, 0 0, 0 0, 0 0, 0 0;
-        background-size: auto, auto, auto, auto, auto, auto;
-    }
+  
 </style>
-<section class="top p-0 bgg">
+<section class="top p-0 ">
     <div class="splide upevent1 " role="group" aria-label="Splide Basic HTML Example">
         <div class="splide__track">
             <ul class="splide__list">
                 <li class="splide__slide" style="    align-items: center;display: flex;justify-content: center;">
-                    <img src="assets/img/clients/auto1.webp" alt="" width="100%">
-                    <div class="overley">
-
-                    </div>
+                   
+                    <div style="width: 100%;height:80vh;background-image: url('assets/img/clients/auto1.webp');background-size: cover;background-position: center;"></div>
+                   
                 </li>
                 <li class="splide__slide" style="    align-items: center;display: flex;justify-content: center;">
-                    <img src="assets/img/clients/auto2.webp" alt="" width="100%">
+                   
+                    <div style="width: 100%;height:80vh;background-image: url('assets/img/clients/auto2.webp');background-size: cover;background-position: center;"></div>
+                   
                 </li>
-
-
-
-
             </ul>
         </div>
     </div>
@@ -139,7 +136,7 @@
     <div class="container mt-5">
   
         <h1 class="mt-5 pb-3 text-center" style="font-weight: 600;">ChargeSol Offers</h1>
-        <div class="row mt-md-5 mt-3">
+        <div class="row mt-md-5 mt-3" style="justify-content: center;">
             <div class="col-md-6 row col-6 mt-4">
                 <div class="col-md-2 m-auto">
                     <div class="p-3 m-auto" style="background-color: #007252;width:70px;    border-radius: 50%;">
@@ -217,6 +214,9 @@
                     
                 </div>
             </div>
+            <div class="col-md-6 row col-6 mt-4">
+               
+            </div>
         </div>
     </div>
 </section>
@@ -244,18 +244,9 @@
 </section>
 
 <script>
-    var splide = new Splide('.upevent', {
-        perPage: 5,
-        rewind: true,
-        gap: '1rem',
-        autoplay: true,
-        type: 'loop',
-        padding: '10rem',
-    });
+ 
 
-    splide.mount();
-
-    var splide = new Splide('.upevent1', {
+    var splide1 = new Splide('.upevent1', {
         perPage: 1,
         rewind: true,
         gap: '1rem',
@@ -264,5 +255,5 @@
 
     });
 
-    splide.mount();
+    splide1.mount();
 </script>
