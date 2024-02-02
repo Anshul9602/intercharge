@@ -54,6 +54,7 @@
         background-position: 0 0, 0 0, 0 0, 0 0, 0 0, 0 0;
         background-size: auto, auto, auto, auto, auto, auto;
     }
+    
 </style>
 
 <section class="top p-0 bgg">
@@ -130,71 +131,71 @@
 
         </div>
         <h1 class="mt-5 pb-3 text-center" style="font-weight: 600;">ChargeSol Offers</h1>
-        <div class="row mt-md-5 mt-3">
-            <div class="col-md-6 row col-6 mt-4">
+        <div class="row mt-md-5 mt-3" style="    justify-content: space-around;">
+            <div class="col-md-6 row col-6 mt-4 mar">
                 <div class="col-md-3 m-auto">
                     <div class="p-3 m-auto" style="background-color: #007252;width:100px;    border-radius: 50%;">
                         <svg stroke="currentColor" fill="none" stroke-width="1.5" viewBox="0 0 24 24" aria-hidden="true" class="h-6 w-6 text-white " height="2em" width="2em"style="    font-size: xx-large;" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" d="M11.35 3.836c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m8.9-4.414c.376.023.75.05 1.124.08 1.131.094 1.976 1.057 1.976 2.192V16.5A2.25 2.25 0 0118 18.75h-2.25m-7.5-10.5H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V18.75m-7.5-10.5h6.375c.621 0 1.125.504 1.125 1.125v9.375m-8.25-3l1.5 1.5 3-3.75"></path></svg>
                     </div>
                    
                 </div>
-                <div class="col-md-8 m-auto">
+                <div class="col-md-8 m-auto mmc">
                     <h3>Transition Planning</h3>
                     <p>Optimized transition plan, total cost of ownership, and incentives support</p>
                 </div>
             </div>
-            <div class="col-md-6 row col-6 mt-4">
+            <div class="col-md-6 row col-6 mt-4 mar">
                 <div class="col-md-3 m-auto">
                     <div class="p-3 m-auto" style="background-color: #007252;width:100px;    border-radius: 50%;">
                         <svg stroke="currentColor" fill="none" stroke-width="1.5" viewBox="0 0 24 24" aria-hidden="true" class="h-6 w-6 text-white " height="2em" width="2em"style="    font-size: xx-large;" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" d="M11.35 3.836c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m8.9-4.414c.376.023.75.05 1.124.08 1.131.094 1.976 1.057 1.976 2.192V16.5A2.25 2.25 0 0118 18.75h-2.25m-7.5-10.5H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V18.75m-7.5-10.5h6.375c.621 0 1.125.504 1.125 1.125v9.375m-8.25-3l1.5 1.5 3-3.75"></path></svg>
                     </div>
                 </div>
-                <div class="col-md-8 m-auto">
+                <div class="col-md-8 m-auto mmc">
                     <h3>Charger Equipment Provisioning</h3>
                     <p>Hardware mix to meet fleet needs: L2, 50 kW - 350 kW DCFC</p>
                 </div>
             </div>
-            <div class="col-md-6 row col-6 mt-4">
+            <div class="col-md-6 row col-6 mt-4 mar">
                 <div class="col-md-3 m-auto">
                     <div class="p-3 m-auto" style="background-color: #007252;width:100px;    border-radius: 50%;">
                         <svg stroke="currentColor" fill="none" stroke-width="1.5" viewBox="0 0 24 24" aria-hidden="true" class="h-6 w-6 text-white " height="2em" width="2em"style="    font-size: xx-large;" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" d="M11.35 3.836c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m8.9-4.414c.376.023.75.05 1.124.08 1.131.094 1.976 1.057 1.976 2.192V16.5A2.25 2.25 0 0118 18.75h-2.25m-7.5-10.5H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V18.75m-7.5-10.5h6.375c.621 0 1.125.504 1.125 1.125v9.375m-8.25-3l1.5 1.5 3-3.75"></path></svg>
                     </div>
                 </div>
-                <div class="col-md-8 m-auto">
+                <div class="col-md-8 m-auto mmc">
                     <h3>Infrastructure Deployment</h3>
                     <p>Design, engineering, permitting, utility coordination, construction, installation, and
                         commissioning</p>
                 </div>
             </div>
-            <div class="col-md-6 row col-6 mt-4">
+            <div class="col-md-6 row col-6 mt-4 mar">
                 <div class="col-md-3 m-auto">
                     <div class="p-3 m-auto" style="background-color: #007252;width:100px;    border-radius: 50%;">
                         <svg stroke="currentColor" fill="none" stroke-width="1.5" viewBox="0 0 24 24" aria-hidden="true" class="h-6 w-6 text-white " height="2em" width="2em"style="    font-size: xx-large;" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" d="M11.35 3.836c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m8.9-4.414c.376.023.75.05 1.124.08 1.131.094 1.976 1.057 1.976 2.192V16.5A2.25 2.25 0 0118 18.75h-2.25m-7.5-10.5H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V18.75m-7.5-10.5h6.375c.621 0 1.125.504 1.125 1.125v9.375m-8.25-3l1.5 1.5 3-3.75"></path></svg>
                     </div>
                 </div>
-                <div class="col-md-8 m-auto">
+                <div class="col-md-8 m-auto mmc">
                     <h3>ChargeSol and O&M</h3>
                     <p>SLA-based uptime guarantee, monitoring, operations, maintenance, and 24/7 customer support</p>
                 </div>
             </div>
-            <div class="col-md-6 row col-6 mt-4">
+            <div class="col-md-6 row col-6 mt-4 mar">
                 <div class="col-md-3 m-auto">
                     <div class="p-3 m-auto" style="background-color: #007252;width:100px;    border-radius: 50%;">
                         <svg stroke="currentColor" fill="none" stroke-width="1.5" viewBox="0 0 24 24" aria-hidden="true" class="h-6 w-6 text-white " height="2em" width="2em"style="    font-size: xx-large;" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" d="M11.35 3.836c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m8.9-4.414c.376.023.75.05 1.124.08 1.131.094 1.976 1.057 1.976 2.192V16.5A2.25 2.25 0 0118 18.75h-2.25m-7.5-10.5H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V18.75m-7.5-10.5h6.375c.621 0 1.125.504 1.125 1.125v9.375m-8.25-3l1.5 1.5 3-3.75"></path></svg>
                     </div>
                 </div>
-                <div class="col-md-8 m-auto">
+                <div class="col-md-8 m-auto mmc">
                     <h3>ChargeSol Software & Networking</h3>
                     <p>Charger & vehicle management and smart charging</p>
                 </div>
             </div>
-            <div class="col-md-6 row col-6 mt-4">
+            <div class="col-md-6 row col-6 mt-4 mar">
                 <div class="col-md-3 m-auto">
                     <div class="p-3 m-auto" style="background-color: #007252;width:100px;    border-radius: 50%;">
                         <svg stroke="currentColor" fill="none" stroke-width="1.5" viewBox="0 0 24 24" aria-hidden="true" class="h-6 w-6 text-white " height="2em" width="2em"style="    font-size: xx-large;" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" d="M11.35 3.836c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m8.9-4.414c.376.023.75.05 1.124.08 1.131.094 1.976 1.057 1.976 2.192V16.5A2.25 2.25 0 0118 18.75h-2.25m-7.5-10.5H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V18.75m-7.5-10.5h6.375c.621 0 1.125.504 1.125 1.125v9.375m-8.25-3l1.5 1.5 3-3.75"></path></svg>
                     </div>
                 </div>
-                <div class="col-md-8 m-auto">
+                <div class="col-md-8 m-auto mmc">
                     <h3>Systems Integrations</h3>
                     <p>Telematics, fleet, and other third party systems integrations</p>
                 </div>
@@ -207,7 +208,7 @@
         <p class="text-center">ChargerSole is proud to partner with industry leaders accelerating the deployment of
             electric vehicles.</p>
         <div class=" ">
-            <div class="splide upevent p-5" role="group" aria-label="Splide Basic HTML Example">
+            <div class="splide upevent p-md-5 p-0" role="group" aria-label="Splide Basic HTML Example">
                 <div class="splide__track">
                     <ul class="splide__list">
                         <li class="splide__slide"
@@ -301,10 +302,15 @@
     var splide = new Splide('.upevent', {
         perPage: 5,
         rewind: true,
-        gap: '1rem',
+        
         autoplay: true,
         type: 'loop',
-        padding: '10rem',
+     
+        breakpoints: {
+            767: {
+              perPage: 3, // Adjust perPage for mobile screens (screens with a width less than 767px)
+            }
+          }
     });
 
     splide.mount();

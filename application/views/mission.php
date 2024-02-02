@@ -23,12 +23,12 @@
         </div>
     </div>
     <div class="container section ">
-        <h1 class="text-center mt-5 pb-5 h1 about"><strong>About ChargeSol</strong></h1>
+        <h1 class="text-center mt-md-5 mt-0 pb-md-5 pb-2 h1 about"><strong>About ChargeSol</strong></h1>
         <div class=" row" style="display:flex !important;    align-items: center;    justify-content: space-between;">
-            <div class=" col-md-6 col-sm-12 tc d-flex" style="align-items: center;justify-content: center;">
+            <div class=" col-md-6 col-sm-12 tc d-flex mt-md-2 mt-4" style="align-items: center;justify-content: center;">
                 <img src="assets/img/clients/ab1.webp" alt="" width="100%">
             </div>
-            <div class=" col-md-5 col-sm-12 tc">
+            <div class=" col-md-5 col-sm-12 tc mt-md-2 mt-4">
                 <h3 class="h3 about">Our Mission</h3>
                 <p>At ChargeSol we aim to make <span class="teal">roaming and interoperability</span> a reality in
                     India by building the backend operating system, which will also accelerate the transition to
@@ -40,10 +40,9 @@
         </div>
     </div>
     <div class="container section ">
-        <div class=" row mt-5"
+        <div class=" row mt-md-5"
             style="display:flex !important;    align-items: center;    justify-content: space-between;">
-            <div class=" col-md-5 col-sm-12 tc order-2 order-sm-2 order-md-1 order-lg-1 order-xl-1 order-xxl-1
-      ">
+            <div class=" col-md-5 col-sm-12 tc order-2 order-sm-2 order-md-1 order-lg-1 order-xl-1 order-xxl-1 mt-md-1 mt-4">
                 <h3 class="h3 about">Our Vision</h3>
                 <p style="font-size:18px;">Our mission is to enable 5 million EV owners to travel hassle free with a
                     charging network of 100,000
@@ -51,8 +50,7 @@
                     networks of multiple CPOs</p>
 
             </div>
-            <div class=" col-md-6 col-sm-12 tc d-flex order-1 order-sm-1 order-md-2 order-lg-2 order-xl-2 order-xxl-2"
-                style="align-items: center;justify-content: center;">
+            <div class=" col-md-6 col-sm-12 tc d-flex order-1 order-sm-1 order-md-2 order-lg-2 order-xl-2 order-xxl-2 mt-md-1 mt-1" style="align-items: center;justify-content: center;">
 
                 <img src="assets/img/clients/ab2.webp" alt="" width="100%">
             </div>
@@ -60,19 +58,19 @@
     </div>
 
     <div class="container section ">
-        <div class=" row mt-5" style="display:flex !important;">
+        <div class=" row mt-md-5 mt-1" style="display:flex !important;">
 
-            <div class=" col-md-4 col-sm-12 text-center">
+            <div class=" col-md-4 col-sm-12 text-center mt-4">
 
                 <img class="about-img" src="assets/img/about/1.png" alt="" style="width:70%;" />
                 <h4 class="about mt-3"><strong>Discover.</strong></h4>
             </div>
-            <div class=" col-md-4 col-sm-12 text-center" style="align-items: center;justify-content: center;">
+            <div class=" col-md-4 col-sm-12 text-center mt-4" style="align-items: center;justify-content: center;">
 
                 <img class="about-img" src="assets/img/about/2.png" alt="" style="width:70%;" />
                 <h4 class="about mt-3"><strong> Access.</strong></h4>
             </div>
-            <div class=" col-md-4 col-sm-12 text-center " style="align-items: center;justify-content: center;">
+            <div class=" col-md-4 col-sm-12 text-center mt-4" style="align-items: center;justify-content: center;">
 
                 <img class="about-img" src="assets/img/about/4.png" alt="" style="width:70%;" />
                 <h4 class="about mt-3"><strong> Pay.</strong></h4>

@@ -54,13 +54,22 @@
     background-position: 0 0, 0 0, 0 0, 0 0, 0 0, 0 0;
     background-size: auto, auto, auto, auto, auto, auto
   }
+  @media screen and (max-width: 768px) {
+    .col-md-4 {
+    padding-bottom: 0px !important;
+  }
+  .container{
+            width: 90% !important;
+            margin: auto !important;
+            }
+  }
 </style>
 
 <section class="top p-0 bgg">
   <div class=" ">
     <div>
       <div class="container">
-        <div class="row d-flex mt-144" style="    align-items: center;">
+        <div class="row d-flex mt-md-2 mt-5" style="    align-items: center;">
           <div class="col-md-6 z-1 text-white">
             <h1 class="hero-title">Host EV Fast Charging Stations
               <span class="orange">for Your Customers</span>
@@ -85,7 +94,7 @@
   </div>
 </section>
 <section class="container">
-  <div class="main mt-4 pb-5">
+  <div class="main mt-4 pb-md-5 pb-2">
     <h2 class="text-center">Be In Good Company</h2>
     <p class="text-center">ChargeSol is proud to partner with industry leaders.</p>
   </div>
@@ -133,7 +142,7 @@
     <div class="col-md-7">
       <img src="assets/img/clients/pp1.webp" alt="" width="100%">
     </div>
-    <div class="col-md-4">
+    <div class="col-md-4 mt-3">
       <h2 style="font-weight: 600;">The EV Revolution Has Arrived</h2>
       <p class="mt-3">In just a few years, half of all auto sales in the US will be electric vehicles. Drivers fast
         charge where they shop, work, dine, and play.</p>
@@ -145,14 +154,14 @@
 </section>
 <section class="wh">
   <div class="container">
-    <div class="hed mt-4 pb-5 ">
+    <div class="hed mt-4 pb-md-5 pb-1">
       <h2 class="text-center" style="font-weight: 700;">Why ChargeSol Fast Charging?</h2>
     </div>
     <div class="row mt-4" style="justify-content: space-between;">
-      <div class="col-md-6">
+      <div class="col-md-6 mt-md-1 mt-4">
         <img src="assets/img/clients/ab2.webp" alt="" width="100%">
       </div>
-      <div class="col-md-5">
+      <div class="col-md-5 mt-md-1 mt-4">
         <h2 style="font-weight: 600;">ChargeSol Is One Of The Nation's Largest Public Fast Charging Networks</h2>
         <div
           class="prose mt-4 max-w-none text-theme-base prose-headings:text-theme-base prose-strong:font-bold prose-strong:text-theme-base">
@@ -196,10 +205,10 @@
 
 <section class="container">
   <div class="row" style="align-items: center;    justify-content: space-between;">
-    <div class="col-md-6">
+    <div class="col-md-6 mt-md-1 mt-4">
       <img src="assets/img/clients/pp3.webp" alt="" width="100%">
     </div>
-    <div class="col-md-6">
+    <div class="col-md-6 mt-md-1 mt-4">
       <h2 style="font-weight: 600;">Site Host Spotlight: Lazy Acres Natural Market</h2>
       <p class="mt-3">"Having the EVgo fast chargers has been a premium experience. The EVgo group has offered great
         support. We're happy to say the chargers can really bring some added value to your customer base."</p>
@@ -352,6 +361,11 @@
     rewind: true,
     autoplay: true,
     type: 'loop',
+    breakpoints: {
+        767: {
+          perPage: 3, // Adjust perPage for mobile screens (screens with a width less than 767px)
+        }
+      }
 
   });
 

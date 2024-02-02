@@ -31,7 +31,12 @@
     .col-md-2_5 {
         width: 18%;
     }
+    @media screen and (max-width: 768px) {
+        .col-md-2_5 {
+        width: 45%;
+    }
 
+    }
     .card1 {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         transition: 0.3s;
@@ -58,10 +63,8 @@
 </style>
 
 <section class="top p-0 bgg" >
-    <div class=" ">
-        <div>
             <div class="container">
-                <div class="row d-flex mt-144" style="    align-items: center;">
+                <div class="row d-flex mt-4 mt-md-0" style="    align-items: center;">
                     <div class="col-md-6 z-1 text-white">
                         <h1 class="hero-title">Revolutionize Your Charging
                             <span class="orange">Network with ChargeSol </span>
@@ -85,79 +88,77 @@
                 </div>
                 <hr>
             </div>
-        </div>
-    </div>
 </section>
 <section style="background-color: #eef5db;">
     <div class="container mt-5 pb-5">
 
         <div class="row justify-content-center">
-            <div class="col-md-2_5 card1 text-center p-4">
+            <div class="col-md-2_5 card1 col-6 text-center p-4">
                 <img src="assets/img/icon/1.png" alt="" width="50">
                 <h6 class="mt-3" style="color: #fff;">OCPI 2.1,2 and 2.2</h6>
                 <i class="bi bi-chevron-down" style="color:#fff"></i>
             </div>
-            <div class="col-md-2_5 card1 text-center p-4">
+            <div class="col-md-2_5 card1 col-6 text-center p-4">
                 <img src="assets/img/icon/1.png" alt="" width="50">
                 <h6 class="mt-3" style="color: #fff;">OCPP 2.1,2 and 2.2</h6>
                 <i class="bi bi-chevron-down" style="color:#fff"></i>
             </div>
-            <div class="col-md-2_5 card1 text-center p-4">
+            <div class="col-md-2_5 card1 col-6 text-center p-4">
                 <img src="assets/img/icon/1.png" alt="" width="50">
                 <h6 class="mt-3" style="color: #fff;">Full data isolation</h6>
                 <i class="bi bi-chevron-down" style="color:#fff"></i>
             </div>
-            <div class="col-md-2_5 card1 text-center p-4">
+            <div class="col-md-2_5 card1 col-6 text-center p-4">
                 <img src="assets/img/icon/1.png" alt="" width="50">
                 <h6 class="mt-3" style="color: #fff;">Remote start/stop</h6>
                 <i class="bi bi-chevron-down" style="color:#fff"></i>
             </div>
-            <div class="col-md-2_5 card1 text-center p-4">
+            <div class="col-md-2_5 card1 col-6 text-center p-4">
                 <img src="assets/img/icon/1.png" alt="" width="50">
                 <h6 class="mt-3" style="color: #fff;">REID based charging</h6>
                 <i class="bi bi-chevron-down" style="color:#fff"></i>
             </div>
-            <div class="col-md-2_5 card1 text-center p-4">
+            <div class="col-md-2_5 card1 col-6 text-center p-4">
                 <img src="assets/img/icon/1.png" alt="" width="50">
                 <h6 class="mt-3" style="color: #fff;">Ad-hoc credit cards payments support</h6>
                 <i class="bi bi-chevron-down" style="color:#fff"></i>
             </div>
-            <div class="col-md-2_5 card1 text-center p-4">
+            <div class="col-md-2_5 card1 col-6 text-center p-4">
                 <img src="assets/img/icon/1.png" alt="" width="50">
                 <h6 class="mt-3" style="color: #fff;">User Mansgement</h6>
                 <i class="bi bi-chevron-down" style="color:#fff"></i>
             </div>
-            <div class="col-md-2_5 card1 text-center p-4">
+            <div class="col-md-2_5 card1 col-6 text-center p-4">
                 <img src="assets/img/icon/1.png" alt="" width="50">
                 <h6 class="mt-3" style="color: #fff;">Dynamic and Static Load Management </h6>
                 <i class="bi bi-chevron-down" style="color:#fff"></i>
             </div>
-            <div class="col-md-2_5 card1 text-center p-4">
+            <div class="col-md-2_5 card1 col-6 text-center p-4">
                 <img src="assets/img/icon/1.png" alt="" width="50">
                 <h6 class="mt-3" style="color: #fff;">Reporting and Analytics</h6>
                 <i class="bi bi-chevron-down" style="color:#fff"></i>
             </div>
-            <div class="col-md-2_5 card1 text-center p-4">
+            <div class="col-md-2_5 card1 col-6 text-center p-4">
                 <img src="assets/img/icon/1.png" alt="" width="50">
                 <h6 class="mt-3" style="color: #fff;">OCPP live loge debugging</h6>
                 <i class="bi bi-chevron-down" style="color:#fff"></i>
             </div>
-            <div class="col-md-2_5 card1 text-center p-4">
+            <div class="col-md-2_5 card1 col-6 text-center p-4">
                 <img src="assets/img/icon/1.png" alt="" width="50">
                 <h6 class="mt-3" style="color: #fff;">OCPI love logs debugging</h6>
                 <i class="bi bi-chevron-down" style="color:#fff"></i>
             </div>
-            <div class="col-md-2_5 card1 text-center p-4">
+            <div class="col-md-2_5 card1 col-6 text-center p-4">
                 <img src="assets/img/icon/1.png" alt="" width="50">
                 <h6 class="mt-3" style="color: #fff;">Custom branding</h6>
                 <i class="bi bi-chevron-down" style="color:#fff"></i>
             </div>
-            <div class="col-md-2_5 card1 text-center p-4">
+            <div class="col-md-2_5 card1 col-6 text-center p-4">
                 <img src="assets/img/icon/1.png" alt="" width="50">
                 <h6 class="mt-3" style="color: #fff;">Hubs support</h6>
                 <i class="bi bi-chevron-down" style="color:#fff"></i>
             </div>
-            <div class="col-md-2_5 card1 text-center p-4">
+            <div class="col-md-2_5 card1 col-6 text-center p-4">
                 <img src="assets/img/icon/1.png" alt="" width="50">
                 <h6 class="mt-3" style="color: #fff;">EMA_ID</h6>
                 <i class="bi bi-chevron-down" style="color:#fff"></i>
@@ -218,9 +219,9 @@
         </div>
     </div>
     <div class="container mt-5" style="">
-        <h2>Upcoming Events</h2>
+        <h2 class="" style="padding: 0 20px;">Upcoming Events</h2>
         <div class=" ">
-            <div class="splide upevent p-5" role="group" aria-label="Splide Basic HTML Example">
+            <div class="splide upevent p-md-5 p-0" role="group" aria-label="Splide Basic HTML Example">
                 <div class="splide__track">
                     <ul class="splide__list">
                         <li class="splide__slide" style="    padding: 20px;">
@@ -241,10 +242,10 @@
 
                                 </div>
                                 <div class="row justify-content-between pt-4">
-                                    <div class="col-md-5">
+                                    <div class="col-md-5 col-6">
                                         <button class="btn btn-primary" style="background-color: #17a398;    border: none;"> View Details</button>
                                     </div>
-                                    <div class="col-md-5">
+                                    <div class="col-md-5 col-6">
                                         <button class="btn btn-secondary" style="background-color: #7e9b8f;    border: none;"> Register Now</button>
                                     </div>
                                 </div>
@@ -281,12 +282,17 @@
 
 <script>
     var splide = new Splide('.upevent', {
-        perPage: 2,
+        perPage: 3,
         rewind: true,
-        gap: '3rem',
+        
         autoplay: true,
         type: 'loop',
-        padding: '10rem',
+       
+        breakpoints: {
+    767: {
+      perPage: 1, // Adjust perPage for mobile screens (screens with a width less than 767px)
+    }
+  }
     });
 
     splide.mount();

@@ -62,13 +62,13 @@
       <div class="container">
         <div class="row d-flex mt-144" style="    align-items: center;">
           <div class="col-md-6 z-1 text-white">
-            <h1 class="hero-title">Host EV Fast Charging Stations
-              <span class="orange">for Your Customers</span>
+            <h1 class="hero-title">We pioneer 
+              <span class="orange">Change</span>
             </h1>
-            <p class="p mt-32 _w-582">Attract new customers and build brand loyalty</p>
+            <p class="p mt-32 _w-582">Advancing eMobility is the core of our mission. We combine industry expertise with consulting methods and tools to help our clients succeed. </p>
             <div class="hero-btn-wrapper">
               <a href="<?php echo base_url('Contact'); ?>" data-w-id="f4f18225-2f7a-1018-3f68-7b938e7cc7fd"
-                class="button _50 w-button aside-btn mt-0">Host a site</a>
+                class="button _50 w-button aside-btn mt-0">Start today</a>
 
             </div>
           </div>
@@ -86,7 +86,7 @@
 </section>
 <section class="container">
   <div class="main mt-4 pb-5">
-    <h2 class="text-center">Be In Good Company</h2>
+    <h2 class="text-center">What can we do for you</h2>
     <p class="text-center">ChargeSol is proud to partner with industry leaders.</p>
   </div>
   <div class="sl mt-4">

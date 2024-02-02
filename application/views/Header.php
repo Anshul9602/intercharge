@@ -41,16 +41,56 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-  <script src="
+    <script src="
   https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
   "></script>
-  <link href="
+    <link href="
   https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
   " rel="stylesheet">
     <style>
-        .aside-btn{
+        .aside-btn {
             background-color: #17a398 !important;
-        color:#fff !important;}
+            color: #fff !important;
+        }
+
+        @media screen and (max-width: 768px) {
+            .section {
+                padding: 20px 0 !important;
+            }
+
+            #header {
+                height: auto !important;
+                padding: 10px 0;
+            }
+
+            #header .logo img {
+                max-width: 130px !important;
+            }
+
+            .mobile-nav-show {
+                color: #17a398;
+            }
+
+            .mar {
+                margin-left: 0px;
+                margin-right: 0px;
+            }
+
+            .mmc {
+                text-align: center !important;
+                margin-top: 10px !important;
+            }
+            .container{
+            width: 95% !important;
+            margin: auto !important;
+            }
+            .splide__arrow--next {
+                right: -1em !important;
+            }
+            .splide__arrow--prev {
+                left: -1em !important;
+            }
+        }
     </style>
 </head>
 
@@ -93,7 +133,8 @@
                     </li>
                     <li><a href="<?php echo base_url('Consulting'); ?>">Consulting</a></li>
                     <li><a href="<?php echo base_url(''); ?>">ChargeShare</a></li>
-                    <li class="dropdown "><a href="<?php echo base_url('About_us'); ?>">About Us <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                    <li class="dropdown "><a href="<?php echo base_url('About_Us'); ?>">About Us <i
+                                class="bi bi-chevron-down dropdown-indicator"></i></a>
                         <ul>
                             <li><a href="<?php echo base_url('Mission'); ?>">Mission & Vision </a></li>
                             <li><a href="<?php echo base_url('Partners'); ?>">Partners</a></li>

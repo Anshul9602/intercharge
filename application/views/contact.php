@@ -22,6 +22,12 @@
     max-width:90% !important;
     padding-top: 0 !important;
 }
+.mxd{
+    max-width:90% !important;}
+.mxd h1{
+    font-size: 22px !important;
+    line-height:normal;}
+    
 .mobw h1 {
     font-size: 22px !important;
     line-height:normal;
@@ -35,10 +41,10 @@
     }
 </style>
 <div class="container md-pb-5">
-    <div class=" m-4">
+    <div class=" m-md-4 m-1">
         <div class="row">
             <div class="card">
-                <div class="main mt-5 p-5 mobw" style="max-width: 60%;">
+                <div class="main mt-md-5 mt-1 p-md-5 p-0 mxd" style="max-width: 60%;">
                     <h1>
                         Join the largest innovation platform in the world.
                     </h1>
@@ -52,24 +58,24 @@
             <h3 class="text-center mt-5 pt-3">Tell us a little bit about yourself...</h3>
             <div class="container md-p-5 p-1">
                 <div class="card hov">
-                    <div class="row md-p-5 p-3 tab">
-                        <div class="col-md-4 col-4 tablinks" onclick="openCity(event, 'form1')">
+                    <div class="row md-p-5 p-3 tab" style="justify-content: center;">
+                        <div class="col-md-4 col-9 tablinks mt-md-2 mt-3" onclick="openCity(event, 'form1')">
                             <div class="card" style="border-radius: 20px;height: 81px;align-items: center;justify-content: center;">
-                                <div class="md-p-5 p-1">
+                                <div class="md-p-5 p-md-2 p-3">
                                     <h4>I work at a world class startup company.</h4>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 col-4 tablinks" onclick="openCity(event, 'form2')">
+                        <div class="col-md-4 col-9 tablinks mt-md-2 mt-3" onclick="openCity(event, 'form2')">
                             <div class="card" style="border-radius: 20px;height: 81px;align-items: center;justify-content: center;">
-                                <div class="md-p-5 p-1">
+                                <div class="md-p-5 p-md-2 p-3">
                                     <h4>I work for a major corporation.</h4>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 col-4 tablinks" onclick="openCity(event, 'form3')">
+                        <div class="col-md-4 col-9 tablinks mt-md-2 mt-3" onclick="openCity(event, 'form3')">
                             <div class="card" style="border-radius: 20px;height: 81px;align-items: center;justify-content: center;">
-                                <div class="md-p-5 p-1">
+                                <div class="md-p-5 p-md-2 p-3">
                                     <h4>I am an angel investor or venture capitalist.</h4>
                                 </div>
                             </div>

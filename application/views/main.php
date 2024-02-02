@@ -7,11 +7,12 @@
     background-color: transparent;
     position: absolute;
   }
+
   .navbar a,
   .navbar a:focus {
-  color:#fff;}
-</style>
-<style>
+    color: #fff;
+  }
+
   .first1 {
     opacity: 0;
     width: 0%;
@@ -63,6 +64,27 @@
     opacity: 1;
 
   }
+
+  @media screen and (max-width: 768px) {
+    .h1f {
+      font-size: 18px !important;
+    }
+
+    .fusion-title-heading {
+      line-height: 20px !important;
+      font-size: 13px !important;
+    }
+
+    .fusion-title-heading span {
+      line-height: 20px !important;
+      font-size: 13px !important;
+    }
+    #about .container{
+
+    padding: 0 30px !important;
+    }
+
+  }
 </style>
 
 <main id="main">
@@ -85,7 +107,7 @@
           <span style="letter-spacing: 2px; line-height: 36px;"> Get Started with the widest eRoaming network that will
             change</span>
         </h3>
-        <h1 style="margin: 0; font-size: 4em; --fontSize: 26; ">The way you charge your EV on-the-go! </h1>
+        <h1 class="h1f mt-md-3 mt-3" style="margin: 0; font-size: 4em; --fontSize: 26; ">The way you charge your EV on-the-go! </h1>
       </div>
 
       <!-- Additional Centered Text After Video -->
@@ -97,25 +119,25 @@
   <section class=" wf-section ">
     <div class="container">
       <div class="row">
-        <div class="col-md-3">
+        <div class="col-md-3 col-6">
           <h3 style="color: #013220;font-weight:600;">1035+</h3>
           <p>Companies connected to our platform
 
           </p>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 col-6">
           <h3 style="color: #013220;font-weight:600;">10m+</h3>
           <p>EV drivers reached globally
 
           </p>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 col-6">
           <h3 style="color: #013220;font-weight:600;">36m+</h3>
           <p>Charging transations every year
 
           </p>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 col-6">
           <h3 style="color: #013220;font-weight:600;">400k+</h3>
           <p>Charging transations every year
 
@@ -205,16 +227,20 @@
       font-weight: 600;
       color: #013220;
     }
-.auth{
-color:#203635;
-font-weight: 600;
-}
-.splide__arrow--prev {
-  left: -3em;
-}
-.splide__arrow--next {
-  right: -2em;
-}
+
+    .auth {
+      color: #203635;
+      font-weight: 600;
+    }
+
+    .splide__arrow--prev {
+      left: -3em;
+    }
+
+    .splide__arrow--next {
+      right: -2em;
+    }
+
     .why p {
       font-size: 15px;
     }
@@ -328,8 +354,10 @@ font-weight: 600;
           A <span style="color:#1b1b1b;">Unified</span> network across all borders
         </h2>
         <p class="p mt-3" style="color:#fff;    font-weight: 500;">
-          You’ll become a part of the community where you can connect to <span style="color:#1b1b1b;    font-weight: 500;">thousands of</span>
-          other emobility partners, opening access to thousands of charging stations for all the <span style="color:#1b1b1b;    font-weight: 500;">EV
+          You’ll become a part of the community where you can connect to <span
+            style="color:#1b1b1b;    font-weight: 500;">thousands of</span>
+          other emobility partners, opening access to thousands of charging stations for all the <span
+            style="color:#1b1b1b;    font-weight: 500;">EV
             Drivers</span>, regardless of their location. Don’t let market fragmentation get in
           your way. Charge Anywhere.
 
@@ -361,6 +389,24 @@ font-weight: 600;
       <div class="splide testi mt-0" role="group" aria-label="Splide Basic HTML Example">
         <div class="splide__track">
           <ul class="splide__list">
+            <li class="splide__slide">
+              <div class="dec p-3">
+                <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore nostrum debitis fugit praesentium!
+                  Iusto omnis hic, ipsa dicta dolor tempore soluta natus velit"</p>
+                <div class="auth mt-3">
+                  Ingrid Correa
+                </div>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="dec p-3">
+                <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore nostrum debitis fugit praesentium!
+                  Iusto omnis hic, ipsa dicta dolor tempore soluta natus velit"</p>
+                <div class="auth mt-3">
+                  Ingrid Correa
+                </div>
+              </div>
+            </li>
             <li class="splide__slide">
               <div class="dec p-3">
                 <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore nostrum debitis fugit praesentium!
@@ -419,6 +465,11 @@ font-weight: 600;
       autoplay: true,
       type: 'loop',
       gap: '1rem',
+      breakpoints: {
+        767: {
+          perPage: 3, // Adjust perPage for mobile screens (screens with a width less than 767px)
+        }
+      }
     });
 
     splide.mount();
@@ -430,6 +481,11 @@ font-weight: 600;
       gap: '4rem',
       autoplay: true,
       type: 'loop',
+      breakpoints: {
+        767: {
+          perPage: 1, // Adjust perPage for mobile screens (screens with a width less than 767px)
+        }
+      }
 
     });
 

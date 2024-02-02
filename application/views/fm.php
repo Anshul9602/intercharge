@@ -60,38 +60,38 @@
 </section>
 <section style="">
     <div class="container">
-        <div class="row mt-4 pb-5" style="    align-items: center;">
+        <div class="row mt-4 pb-md-5 pb-1" style="    align-items: center;">
             <div class="col-md-10 pb-5">
                 <h2> Find available chargepoints nearest to you anywhere.</h2>
             </div>
             <div class="col-md-7 mt-4">
                 <img src="assets/img/clients/app2.png" alt="">
             </div>
-            <div class="col-md-4 mt-4 row">
+            <div class="col-md-4 mt-4 row m-0">
                 <hr>
-               <div class="col-md-2"><i class="bi bi-check" style="font-size:25px;"></i></div>
-               <div class="col-md-10">
+               <div class="col-md-2 col-2"><i class="bi bi-check" style="font-size:25px;"></i></div>
+               <div class="col-md-10 col-9">
                 <p>Discover chargepoints across all major networks for both your two-wheeler and four-wheeler.</p>
                </div>
                <hr>
-               <div class="col-md-2"><i class="bi bi-check"style="font-size: 25px;"></i></div>
-               <div class="col-md-10">
+               <div class="col-md-2 col-2"><i class="bi bi-check"style="font-size: 25px;"></i></div>
+               <div class="col-md-10 col-9">
                 <p>Filter by your vehicle connector type to find the perfect chargepoint.</p>
                </div>
             </div>
 
 
             
-            <div class="col-md-4 mt-4 row">
+            <div class="col-md-4 mt-4 row m-0">
                 <hr>
-               <div class="col-md-2"><i class="bi bi-check" style="font-size:25px;"></i></div>
-               <div class="col-md-10">
+               <div class="col-md-2 col-2"><i class="bi bi-check" style="font-size:25px;"></i></div>
+               <div class="col-md-10 col-9">
                 <p>
                     Roaming-enabled on multiple chargepoints means you can access chargers of multiple brands from a single app.</p>
                </div>
                <hr>
-               <div class="col-md-2"><i class="bi bi-check"style="font-size: 25px;"></i></div>
-               <div class="col-md-10">
+               <div class="col-md-2 col-2"><i class="bi bi-check"style="font-size: 25px;"></i></div>
+               <div class="col-md-10 col-9">
                 <p>One of the Largest chargepoint aggregators of chargepoints in India.</p>
                </div>
             </div>
@@ -101,31 +101,31 @@
             <div class="col-md-7 mt-4">
                 <img src="assets/img/clients/app4.png" alt="">
             </div>
-            <div class="col-md-4 mt-4 row">
+            <div class="col-md-4 mt-4 row m-0">
                 <hr>
-               <div class="col-md-2"><i class="bi bi-check" style="font-size:25px;"></i></div>
-               <div class="col-md-10">
+               <div class="col-md-2 col-2"><i class="bi bi-check" style="font-size:25px;"></i></div>
+               <div class="col-md-10 col-9">
                 <p>
                     Reliable and feature-rich information of chargepoints.</p>
                </div>
                <hr>
-               <div class="col-md-2"><i class="bi bi-check"style="font-size: 25px;"></i></div>
-               <div class="col-md-10">
+               <div class="col-md-2 col-2"><i class="bi bi-check"style="font-size: 25px;"></i></div>
+               <div class="col-md-10 col-9">
                 <p>Find up-to-date station information, dynamic status, reviews and available prediction for chargepoints.</p>
                </div>
                <hr>
-               <div class="col-md-2"><i class="bi bi-check"style="font-size: 25px;"></i></div>
-               <div class="col-md-10">
+               <div class="col-md-2 col-2"><i class="bi bi-check"style="font-size: 25px;"></i></div>
+               <div class="col-md-10 col-9">
                 <p>Review and check-in (coming soon) at chargepoints to help co-drivers.</p>
                </div>
                <hr>
-               <div class="col-md-2"><i class="bi bi-check"style="font-size: 25px;"></i></div>
-               <div class="col-md-10">
+               <div class="col-md-2 col-2"><i class="bi bi-check"style="font-size: 25px;"></i></div>
+               <div class="col-md-10 col-9">
                 <p>Find verified tariff for all connector-types of chargepoints.</p>
                </div>
                <hr>
-               <div class="col-md-2"><i class="bi bi-check"style="font-size: 25px;"></i></div>
-               <div class="col-md-10">
+               <div class="col-md-2 col-2"><i class="bi bi-check"style="font-size: 25px;"></i></div>
+               <div class="col-md-10 col-9">
                 <p>CPO (Chargepoint-data) controlled data ensures data is almost always reliable and correct.</p>
                </div>
             </div>

@@ -79,7 +79,7 @@ hr {
                     <button type="button" class="btn cancel" onclick="closeForm1()"><i class="bi bi-x-lg"></i></button>
                 </div>
 
-                <img src="assets/img/logo2.png" width="250" alt="">
+                <img class="fimg" src="assets/img/logo2.png" width="250" alt="">
                 <h3 class="mt-5" style="color:#fff;font-weight: 800;">YOUR TRUSTED ADVISOR FOR NAVIGATING THE EV
                     ECOSYSTEM</h3>
                 <h5 class="mt-3 pb-5"> Please reach out to us at <a href="mailto: team@ChargeSol.in"><span
