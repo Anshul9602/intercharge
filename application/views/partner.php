@@ -54,14 +54,16 @@
     background-position: 0 0, 0 0, 0 0, 0 0, 0 0, 0 0;
     background-size: auto, auto, auto, auto, auto, auto
   }
+
   @media screen and (max-width: 768px) {
     .col-md-4 {
-    padding-bottom: 0px !important;
-  }
-  .container{
-            width: 90% !important;
-            margin: auto !important;
-            }
+      padding-bottom: 0px !important;
+    }
+
+    .container {
+      width: 90% !important;
+      margin: auto !important;
+    }
   }
 </style>
 
@@ -221,11 +223,22 @@
   </div>
 </section>
 <style>
-  .col-nn{
+  .col-nn {
     width: 8.6%;
   }
-  .col-nn1{
+
+  .col-nn1 {
     width: 4%;
+  }
+
+  @media screen and (max-width: 768px) {
+    .col-nn {
+      width: 25%;
+    }
+
+    .col-nn1 {
+      width: 10%;
+    }
   }
 </style>
 <section class="container">
@@ -234,7 +247,7 @@
     <p class="mt-3 text-center">EVgo manages everything from permitting and installation to maintenance and
       industry-leading customer care. Turnkey Fast Charging with No Upfront Cost or Maintenance Expenses</p>
   </div>
-  <div class="row mt-5">
+  <div class="row mt-5" style="justify-content: center;">
     <div class="col-nn text-center">
       <img src="assets/img/clients/nu1.svg" alt="">
       <p class="text-center pt-3">Initial
@@ -362,10 +375,10 @@
     autoplay: true,
     type: 'loop',
     breakpoints: {
-        767: {
-          perPage: 3, // Adjust perPage for mobile screens (screens with a width less than 767px)
-        }
+      767: {
+        perPage: 3, // Adjust perPage for mobile screens (screens with a width less than 767px)
       }
+    }
 
   });
 
