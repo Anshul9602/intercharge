@@ -87,6 +87,11 @@
     border-top: none;
     background-color: #afcbbb;
   }
+
+  .sl11 .splide__arrows {
+    position: absolute;
+    right: 5%;
+  }
 </style>
 <section class="top p-0 bgg">
   <div class=" ">
@@ -130,7 +135,7 @@
             <img src="assets/img/con1.svg" alt="">
           </div>
           <h2 class="mt-md-4 mt-2 pb-md-3 pb-2" style="font-weight: 600;">Advance with strategy</h2>
-          <p>Hubject Consulting simplifies the process of entering and scaling up in the EV charging industry – no
+          <p>ChargeSol Consulting simplifies the process of entering and scaling up in the EV charging industry – no
             matter
             what market sector or location our clients originate in. Using industry expertise combined with
             issue-specific
@@ -138,7 +143,7 @@
         </div>
         <div class="card p-md-5 p-3 mt-3">
           <div class="icon">
-            <img src="assets/img/con3.svg" alt="">
+            <img src="assets/img/cou3.svg" alt="">
           </div>
           <h2 class="mt-md-4 mt-2 pb-md-3 pb-2" style="font-weight: 600;">Harness new technologies</h2>
           <p>Successfully navigating the eMobility industry means embracing innovation. Our consultants specialise in
@@ -163,92 +168,142 @@
 </section>
 <section style="background-color: #eef5db;">
   <div class="container">
-    <h2 style="font-weight: 800;">Our service offering</h2>
+    <h2 class="pb-md-5 pb-3 text-center" style="font-weight: 800;">Our service offering</h2>
     <div class="tab">
-      <button class="tablinks active " onclick="openCity(event, 'tab1')" style="padding: 30px 20px;">Market analysis &
+      <button class="tablinks active " onclick="openCity(event, 'tab1')"
+        style="padding: 30px 20px 10px; min-height:95px;    width: 25%;">Market analysis &
         expansion</button>
-      <button class="tablinks" onclick="openCity(event, 'tab2')" style="padding: 30px 20px;">Investment analysis &
+      <button class="tablinks" onclick="openCity(event, 'tab2')"
+        style="padding: 30px 20px 10px; min-height:95px;    width: 25%;">Investment analysis &
         pricing strategy</button>
-      <button class="tablinks" onclick="openCity(event, 'tab3')" style="padding: 30px 20px;">Strategy
+      <button class="tablinks" onclick="openCity(event, 'tab3')"
+        style="padding: 30px 20px 10px; min-height:95px;    width: 25%;">Strategy
         development</button>
-      <button class="tablinks" onclick="openCity(event, 'tab4')" style="padding: 30px 20px;">Regulatory & policy
+      <button class="tablinks" onclick="openCity(event, 'tab4')"
+        style="padding: 30px 20px 10px; min-height:95px;    width: 25%;">Regulatory & policy
         analysis</button>
     </div>
 
     <div id="tab1" class="tabcontent p-md-5 p-2" style="display: block;">
-      <div class="row">
+      <div class="row" style="justify-content: space-between;">
 
 
-        <div class="col-md-6 mt-3">
+        <div class="col-md-4 mt-3">
           <h2 style="font-weight: 600;">Your guideline through the eMobility ecosystem</h2>
           <p>We provide a comprehensive view on the value pools across the eMobility ecosystem and identify value
             potential for both newcomers and ecosystem partners.</p>
+          <a href="" class="button _50 w-button aside-btn mt-3">Get started</a>
         </div>
-        <div class="col-md-6 mt-3">
+        <div class="col-md-7 mt-3">
           <h6><span><img src="assets/img/right.svg" alt="" width="30"></span> Positioning strategy for eMobility
             newcomers </h6>
-          <h6><span><img src="assets/img/right.svg" alt="" width="30"></span>Feasibility analysis of business models and products</h6>
-          <h6><span><img src="assets/img/right.svg" alt="" width="30"></span>Competitive market analysis</h6>
-          <h6><span><img src="assets/img/right.svg" alt="" width="30"></span>Identification and analysis of value potentials and revenue forecasting </h6>
-          <h6><span><img src="assets/img/right.svg" alt="" width="30"></span>Market forecasting </h6>
-          <h6><span><img src="assets/img/right.svg" alt="" width="30"></span>V2G-based business strategy </h6>
-          
-        </div>
-        <div class="col-md-6 mt-3">
-          <h2 style="font-weight: 600;">Your guideline through the eMobility ecosystem</h2>
-          <p>We provide a comprehensive view on the value pools across the eMobility ecosystem and identify value
-            potential for both newcomers and ecosystem partners.</p>
-        </div>
-        <div class="col-md-6 mt-3">
-          <h6><span><img src="assets/img/right.svg" alt="" width="30"></span> Positioning strategy for eMobility
-            newcomers </h6>
-        </div>
-      </div>
+          <h6><span><img src="assets/img/right.svg" alt="" width="30"></span> Feasibility analysis of business models
+            and
+            products</h6>
+          <h6><span><img src="assets/img/right.svg" alt="" width="30"></span> Competitive market analysis</h6>
+          <h6><span><img src="assets/img/right.svg" alt="" width="30"></span> Identification and analysis of value
+            potentials and revenue forecasting </h6>
+          <h6><span><img src="assets/img/right.svg" alt="" width="30"></span> Market forecasting </h6>
+          <h6><span><img src="assets/img/right.svg" alt="" width="30"></span> V2G-based business strategy </h6>
 
-      <div id="tab2" class="tabcontent p-md-5 p-2">
-        <h3>Paris</h3>
-        <p>Paris is the capital of France.</p>
-      </div>
+        </div>
 
-      <div id="tab3" class="tabcontent p-md-5 p-2">
-        <h3>Tokyo</h3>
-        <p>Tokyo is the capital of Japan.</p>
-      </div>
-      <div id="tab4" class="tabcontent p-md-5 p-2">
-        <h3>Tokyo1</h3>
-        <p>Tokyo is the capital of Japan.</p>
+
       </div>
     </div>
+
+    <div id="tab2" class="tabcontent p-md-5 p-2">
+      <div class="row" style="justify-content: space-between;">
+        <div class="col-md-4 mt-3">
+          <h2 style="font-weight: 600;">Make data-based investment decisions</h2>
+          <p>Use ChargeSol’s wealth of real-world data to make smart decisions on pricing tariffs, investment and
+            value-added services. </p>
+          <a href="" class="button _50 w-button aside-btn mt-3">Get started</a>
+        </div>
+        <div class="col-md-7 mt-3">
+          <h6><span><img src="assets/img/right.svg" alt="" width="30"></span> Utilization ramp-up model as an investment
+            decision-aid </h6>
+          <h6><span><img src="assets/img/right.svg" alt="" width="30"></span> Evaluation of make or buy scenarios for
+            our
+            client’s product offerings</h6>
+          <h6><span><img src="assets/img/right.svg" alt="" width="30"></span> Roadmap for pricing tariffs and product
+            features</h6>
+          <h6><span><img src="assets/img/right.svg" alt="" width="30"></span> Development of tailored product bundles
+          </h6>
+          <h6><span><img src="assets/img/right.svg" alt="" width="30"></span> Identification and benchmarking of
+            value-added services</h6>
+          <h6><span><img src="assets/img/right.svg" alt="" width="30"></span> Site analysis based on real-world data
+          </h6>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div id="tab3" class="tabcontent p-md-5 p-2">
+      <div class="row" style="justify-content: space-between;">
+        <div class="col-md-4 mt-3">
+          <h2 style="font-weight: 600;">Scale your business strategically</h2>
+          <p>We find synergies between our client’s existing product or service offerings and their target goals by
+            identifying beneficial value-added services. </p>
+          <a href="" class="button _50 w-button aside-btn mt-3">Get started</a>
+        </div>
+        <div class="col-md-7 mt-3">
+          <h6><span><img src="assets/img/right.svg" alt="" width="30"></span> National and international charging
+            network strategy</h6>
+          <h6><span><img src="assets/img/right.svg" alt="" width="30"></span> Strategic support for future charging
+            network operations</h6>
+          <h6><span><img src="assets/img/right.svg" alt="" width="30"></span> Customer-focused, digitally advanced and
+            international charging strategy</h6>
+          <h6><span><img src="assets/img/right.svg" alt="" width="30"></span> Market success strategy for fleet
+            businesses </h6>
+
+
+        </div>
+
+      </div>
+    </div>
+    <div id="tab4" class="tabcontent p-md-5 p-2">
+      <div class="row" style="justify-content: space-between;">
+        <div class="col-md-4 mt-3">
+          <h2 style="font-weight: 600;">Adapt to international regulations</h2>
+          <p>We guide our clients through the tangle of international regulation and policies that slows down progress
+            for the global eMobility ecosystem. </p>
+          <a href="" class="button _50 w-button aside-btn mt-3">Get started</a>
+        </div>
+        <div class="col-md-7 mt-3">
+          <h6><span><img src="assets/img/right.svg" alt="" width="30"></span> Expertise on international regulatory
+            framework conditions regarding energy law, tax, data privacy and general licenses </h6>
+          <h6><span><img src="assets/img/right.svg" alt="" width="30"></span> Regulatory pre-assessment accounting for
+            our client’s business model plans</h6>
+          <h6><span><img src="assets/img/right.svg" alt="" width="30"></span> Identification of major legal and
+            regulatory barriers </h6>
+          <h6><span><img src="assets/img/right.svg" alt="" width="30"></span> Leading transformational projects </h6>
+
+
+        </div>
+
+      </div>
+    </div>
+  </div>
 </section>
-
-<section class="wh">
+<section style="background-color: #eef5db;">
   <div class="container">
-    <div class="hed mt-4 pb-5 ">
-      <h2 class="text-center" style="font-weight: 700;">Why ChargeSol Fast Charging?</h2>
-    </div>
-    <div class="row mt-4" style="justify-content: space-between;">
-      <div class="col-md-6">
-        <img src="assets/img/clients/ab2.webp" alt="" width="100%">
-      </div>
-      <div class="col-md-5">
-        <h2 style="font-weight: 600;">ChargeSol Is One Of The Nation's Largest Public Fast Charging Networks</h2>
-        <div
-          class="prose mt-4 max-w-none text-theme-base prose-headings:text-theme-base prose-strong:font-bold prose-strong:text-theme-base">
-          <ul>
-            <li>
-              <p>Attract new visitors, build brand loyalty, and future-proof your business</p>
-            </li>
-            <li>
-              <p>With more 50kW+ locations than any other public fast charging network in the India, you can partner
-                with
-                the nation's leading experts</p>
-            </li>
-            <li>
-              <p>Enhance the sustainability of your operations and help meet environmental, social and corporate
-                governance goals</p>
-            </li>
-            <li>
-              <p>Avoid capital spend and ongoing maintenance with ChargeSol turnkey charging solutions</p>
+    <h1 style="font-weight: 800;max-width:60%;">From startups to enterprises, more than 150 companies trust our
+      expertise</h1>
+    <div class="sl11 mt-md-5 mt-2">
+      <div class="splide logos" role="group" aria-label="Splide Basic HTML Example">
+        <div class="splide__track pt-3">
+          <ul class="splide__list">
+            <li class="splide__slide p-3">
+              <img src="assets/img/cc1.jpg" alt="">
+              <h6 class="mt-3">Strategic customer journey development for premium charging solutions</h6>
+              <a href="" class="d-flex" tabindex="0">
+                <div>See their success</div>&nbsp;&nbsp; <img
+                  src="https://assets.website-files.com/602cf2b08109ccbc93d7f9ed/6046bd75ef189c74d678a1fc_Vector%20(Stroke).svg"
+                  loading="lazy" alt="" class="image-5"
+                  style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+              </a>
             </li>
           </ul>
         </div>
@@ -256,39 +311,35 @@
     </div>
   </div>
 </section>
-<section class="container">
-  <div class="row" style="align-items: center;    justify-content: space-between;">
-    <div class="col-md-4">
-      <h2 style="font-weight: 600;">Fast Charging is Convenient for Your Customers</h2>
-      <p class="mt-3"><strong class="font-bold">EVgo Fast Chargers take only minutes (vs hours) to charge</strong>,
-        giving customers just enough time to shop at your business.</p>
-      <a href="" class="button _50 w-button aside-btn mt-3">Contact Now</a>
-
+<section class="pt-0" style="background-color: #eef5db;">
+  <div class="container">
+    <h2 class="pt-md-3 pb-md-5 pb-3 pt-3">Read our whitepapers</h2>
+    <div class="row mt-3">
+      <div class="col-md-3">
+        <img src="assets/img/cc2.png" alt="">
+        <h6 class="mt-3">Strategic customer journey development for premium charging solutions</h6>
+        <a href="" class="d-flex" tabindex="0">
+          <div>Download</div>&nbsp;&nbsp; <img
+            src="https://assets.website-files.com/602cf2b08109ccbc93d7f9ed/6046bd75ef189c74d678a1fc_Vector%20(Stroke).svg"
+            loading="lazy" alt="" class="image-5"
+            style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+        </a>
+      </div>
+      <div class="col-md-3">
+        <img src="assets/img/cc3.jpg" alt="">
+        <h6 class="mt-3">Strategic customer journey development for premium charging solutions</h6>
+        <a href="" class="d-flex" tabindex="0">
+          <div>Download</div>&nbsp;&nbsp; <img
+            src="https://assets.website-files.com/602cf2b08109ccbc93d7f9ed/6046bd75ef189c74d678a1fc_Vector%20(Stroke).svg"
+            loading="lazy" alt="" class="image-5"
+            style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+        </a>
+      </div>
     </div>
-    <div class="col-md-7">
-      <img src="assets/img/clients/pp2.webp" alt="" width="100%">
-    </div>
-
   </div>
 </section>
 
-<section class="container">
-  <div class="row" style="align-items: center;    justify-content: space-between;">
-    <div class="col-md-6">
-      <img src="assets/img/clients/pp3.webp" alt="" width="100%">
-    </div>
-    <div class="col-md-6">
-      <h2 style="font-weight: 600;">Site Host Spotlight: Lazy Acres Natural Market</h2>
-      <p class="mt-3">"Having the EVgo fast chargers has been a premium experience. The EVgo group has offered great
-        support. We're happy to say the chargers can really bring some added value to your customer base."</p>
-      <p class="mt-4">David Schaefer, Store Director, Lazy Acres Natural Market</p>
 
-
-    </div>
-
-
-  </div>
-</section>
 
 <section class="container">
   <div class="main pb-4">
@@ -433,7 +484,7 @@
 </script>
 <script>
   var splide = new Splide('.logos', {
-    perPage: 6,
+    perPage: 3,
     rewind: true,
     autoplay: true,
     type: 'loop',
