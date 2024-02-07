@@ -27,26 +27,8 @@
     padding-bottom: 100px !important;
   }
 
-  .col-md-2_5 {
-    width: 18%;
-  }
 
-  .card1 {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.3s;
-    border-radius: 20px;
-    background-color: #17a398;
-    margin: 1%;
-  }
 
-  .cards11 {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.3s;
-    border-radius: 20px;
-    background-color: #4b006e;
-    padding: 5%;
-    color: #fff;
-  }
 
   .bgg {
 
@@ -54,18 +36,69 @@
     background-position: 0 0, 0 0, 0 0, 0 0, 0 0, 0 0;
     background-size: auto, auto, auto, auto, auto, auto
   }
-</style>
 
+  .card {
+    background-color: #afcbbb;
+  }
+</style>
+<style>
+  .col-nn {
+    width: 8.6%;
+  }
+
+  .col-nn1 {
+    width: 4%;
+  }
+
+  .tab {
+    overflow: hidden;
+
+    background-color: #eef5db;
+  }
+
+  /* Style the buttons inside the tab */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    border-right: 1px solid #afcbbb;
+  }
+
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #afcbbb;
+  }
+
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #afcbbb;
+  }
+
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #afcbbb;
+    border-top: none;
+    background-color: #afcbbb;
+  }
+</style>
 <section class="top p-0 bgg">
   <div class=" ">
     <div>
       <div class="container">
         <div class="row d-flex mt-144" style="    align-items: center;">
           <div class="col-md-6 z-1 text-white">
-            <h1 class="hero-title">We pioneer 
+            <h1 class="hero-title">We pioneer
               <span class="orange">Change</span>
             </h1>
-            <p class="p mt-32 _w-582">Advancing eMobility is the core of our mission. We combine industry expertise with consulting methods and tools to help our clients succeed. </p>
+            <p class="p mt-32 _w-582">Advancing eMobility is the core of our mission. We combine industry expertise with
+              consulting methods and tools to help our clients succeed. </p>
             <div class="hero-btn-wrapper">
               <a href="<?php echo base_url('Contact'); ?>" data-w-id="f4f18225-2f7a-1018-3f68-7b938e7cc7fd"
                 class="button _50 w-button aside-btn mt-0">Start today</a>
@@ -84,65 +117,110 @@
     </div>
   </div>
 </section>
-<section class="container">
-  <div class="main mt-4 pb-5">
-    <h2 class="text-center">What can we do for you</h2>
-    <p class="text-center">ChargeSol is proud to partner with industry leaders.</p>
-  </div>
-  <div class="sl mt-4">
-    <div class="splide logos" role="group" aria-label="Splide Basic HTML Example">
-      <div class="splide__track">
-        <ul class="splide__list">
-          <li class="splide__slide" style="    align-items: center;display: flex;justify-content: center;">
-            <img src="assets/img/clients/1.png" alt="" width="100">
-          </li>
+<section style="background-color: #eef5db;">
+  <div class="container">
+    <div class="main mt-4 pb-5">
+      <h2 class="text-center" style="font-weight: 700;">What can we do for you</h2>
 
-          <li class="splide__slide" style="    align-items: center;display: flex;justify-content: center;">
-            <img src="assets/img/clients/2.png" alt="" width="100">
-          </li>
-
-          <li class="splide__slide" style="    align-items: center;display: flex;justify-content: center;">
-            <img src="assets/img/clients/3.png" alt="" width="100">
-          </li>
-
-          <li class="splide__slide" style="    align-items: center;display: flex;justify-content: center;">
-            <img src="assets/img/clients/4.png" alt="" width="100">
-          </li>
-
-          <li class="splide__slide" style="    align-items: center;display: flex;justify-content: center;">
-            <img src="assets/img/clients/5.png" alt="" width="100">
-          </li>
-          <li class="splide__slide" style="    align-items: center;display: flex;justify-content: center;">
-            <img src="assets/img/clients/6.png" alt="" width="100">
-          </li>
-          <li class="splide__slide" style="    align-items: center;display: flex;justify-content: center;">
-            <img src="assets/img/clients/7.png" alt="" width="100">
-          </li>
-          <li class="splide__slide" style="    align-items: center;display: flex;justify-content: center;">
-            <img src="assets/img/clients/8.png" alt="" width="100">
-          </li>
-
-
-        </ul>
+    </div>
+    <div class="sl mt-4">
+      <div class="container" style="max-width: 90%; margin:auto;">
+        <div class="card p-md-5 p-3 ">
+          <div class="icon">
+            <img src="assets/img/con1.svg" alt="">
+          </div>
+          <h2 class="mt-md-4 mt-2 pb-md-3 pb-2" style="font-weight: 600;">Advance with strategy</h2>
+          <p>Hubject Consulting simplifies the process of entering and scaling up in the EV charging industry – no
+            matter
+            what market sector or location our clients originate in. Using industry expertise combined with
+            issue-specific
+            benchmarks and assessments, we help our clients to strategize and prioritize. </p>
+        </div>
+        <div class="card p-md-5 p-3 mt-3">
+          <div class="icon">
+            <img src="assets/img/con3.svg" alt="">
+          </div>
+          <h2 class="mt-md-4 mt-2 pb-md-3 pb-2" style="font-weight: 600;">Harness new technologies</h2>
+          <p>Successfully navigating the eMobility industry means embracing innovation. Our consultants specialise in
+            the
+            newest technologies defining the industry: from Plug&Charge to smart charging, our clients are ahead of the
+            curve in implementing new technologies to advance the field. </p>
+        </div>
+        <div class="card p-md-5 p-3 mt-3">
+          <div class="icon">
+            <img src="assets/img/con2.svg" alt="">
+          </div>
+          <h2 class="mt-md-4 mt-2 pb-md-3 pb-2" style="font-weight: 600;">Streamline your operations</h2>
+          <p>We bring in detailed data and valuable insights to help our clients manage the complexity of their
+            operations
+            in the eMobility sector. We find and resolve business-critical maintenance and performance issues and help
+            our
+            clients achieve smooth operations that guarantee their success.</p>
+        </div>
       </div>
     </div>
   </div>
 </section>
-<section class="container">
-  <div class="row" style="align-items: center;    justify-content: space-between;">
-    <div class="col-md-7">
-      <img src="assets/img/clients/pp1.webp" alt="" width="100%">
+<section style="background-color: #eef5db;">
+  <div class="container">
+    <h2 style="font-weight: 800;">Our service offering</h2>
+    <div class="tab">
+      <button class="tablinks active " onclick="openCity(event, 'tab1')" style="padding: 30px 20px;">Market analysis &
+        expansion</button>
+      <button class="tablinks" onclick="openCity(event, 'tab2')" style="padding: 30px 20px;">Investment analysis &
+        pricing strategy</button>
+      <button class="tablinks" onclick="openCity(event, 'tab3')" style="padding: 30px 20px;">Strategy
+        development</button>
+      <button class="tablinks" onclick="openCity(event, 'tab4')" style="padding: 30px 20px;">Regulatory & policy
+        analysis</button>
     </div>
-    <div class="col-md-4">
-      <h2 style="font-weight: 600;">The EV Revolution Has Arrived</h2>
-      <p class="mt-3">In just a few years, half of all auto sales in the US will be electric vehicles. Drivers fast
-        charge where they shop, work, dine, and play.</p>
-      <a href="" class="button _50 w-button aside-btn mt-3">Join the Revolution</a>
 
+    <div id="tab1" class="tabcontent p-md-5 p-2" style="display: block;">
+      <div class="row">
+
+
+        <div class="col-md-6 mt-3">
+          <h2 style="font-weight: 600;">Your guideline through the eMobility ecosystem</h2>
+          <p>We provide a comprehensive view on the value pools across the eMobility ecosystem and identify value
+            potential for both newcomers and ecosystem partners.</p>
+        </div>
+        <div class="col-md-6 mt-3">
+          <h6><span><img src="assets/img/right.svg" alt="" width="30"></span> Positioning strategy for eMobility
+            newcomers </h6>
+          <h6><span><img src="assets/img/right.svg" alt="" width="30"></span>Feasibility analysis of business models and products</h6>
+          <h6><span><img src="assets/img/right.svg" alt="" width="30"></span>Competitive market analysis</h6>
+          <h6><span><img src="assets/img/right.svg" alt="" width="30"></span>Identification and analysis of value potentials and revenue forecasting </h6>
+          <h6><span><img src="assets/img/right.svg" alt="" width="30"></span>Market forecasting </h6>
+          <h6><span><img src="assets/img/right.svg" alt="" width="30"></span>V2G-based business strategy </h6>
+          
+        </div>
+        <div class="col-md-6 mt-3">
+          <h2 style="font-weight: 600;">Your guideline through the eMobility ecosystem</h2>
+          <p>We provide a comprehensive view on the value pools across the eMobility ecosystem and identify value
+            potential for both newcomers and ecosystem partners.</p>
+        </div>
+        <div class="col-md-6 mt-3">
+          <h6><span><img src="assets/img/right.svg" alt="" width="30"></span> Positioning strategy for eMobility
+            newcomers </h6>
+        </div>
+      </div>
+
+      <div id="tab2" class="tabcontent p-md-5 p-2">
+        <h3>Paris</h3>
+        <p>Paris is the capital of France.</p>
+      </div>
+
+      <div id="tab3" class="tabcontent p-md-5 p-2">
+        <h3>Tokyo</h3>
+        <p>Tokyo is the capital of Japan.</p>
+      </div>
+      <div id="tab4" class="tabcontent p-md-5 p-2">
+        <h3>Tokyo1</h3>
+        <p>Tokyo is the capital of Japan.</p>
+      </div>
     </div>
-  </div>
-
 </section>
+
 <section class="wh">
   <div class="container">
     <div class="hed mt-4 pb-5 ">
@@ -211,14 +289,7 @@
 
   </div>
 </section>
-<style>
-  .col-nn{
-    width: 8.6%;
-  }
-  .col-nn1{
-    width: 4%;
-  }
-</style>
+
 <section class="container">
   <div class="main pb-4">
     <h1 class="text-center" style="font-weight: 600;">No Upfront Cost or Maintenance Expenses</h1>
@@ -345,7 +416,21 @@
     </div>
   </div>
 </section>
-
+<script>
+  function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
+</script>
 <script>
   var splide = new Splide('.logos', {
     perPage: 6,

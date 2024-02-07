@@ -250,8 +250,7 @@
   <div class="row mt-5" style="justify-content: center;">
     <div class="col-nn text-center">
       <img src="assets/img/clients/nu1.svg" alt="">
-      <p class="text-center pt-3">Initial
-        Consultation</p>
+      <p class="text-center pt-3">Initial Consultation</p>
     </div>
     <div class="col-nn1 text-center" style="display: flex;align-items: center;    justify-content: center;">
       <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#7582e1" style="width: 50px;">
