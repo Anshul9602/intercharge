@@ -126,14 +126,14 @@
                             <li><a href="<?php echo base_url('Automakers'); ?>">Automaker</a></li>
 
                             <li><a href="<?php echo base_url('Cpo'); ?>">CPO</a> </li>
-                            <li><a href="<?php echo base_url(''); ?>">Host</a> </li>
+                            <li><a href="<?php echo base_url('Host'); ?>">Host</a> </li>
                             <li><a href="<?php echo base_url('Partners'); ?>">Businesses</a></li>
 
                         </ul>
                     </li>
                     <li><a href="<?php echo base_url('Consulting'); ?>">Consulting</a></li>
-                    <li><a href="<?php echo base_url(''); ?>">ChargeShare</a></li>
-                    <li class="dropdown "><a href="<?php echo base_url('About_Us'); ?>">About Us <i
+                    <li><a href="<?php echo base_url('Chargeshare'); ?>">ChargeShare</a></li>
+                    <li class="dropdown "><a href="<?php echo base_url('Mission'); ?>">About Us <i
                                 class="bi bi-chevron-down dropdown-indicator"></i></a>
                         <ul>
                             <li><a href="<?php echo base_url('Mission'); ?>">Mission & Vision </a></li>
