@@ -138,9 +138,7 @@
                         <ul>
                             <li><a href="<?php echo base_url('Mission'); ?>">Mission & Vision </a></li>
                             <li><a href="<?php echo base_url('Partners'); ?>">Partners</a></li>
-
-                            <li><a href="<?php echo base_url('Fleet_Operators'); ?>">Sustainability</a>
-                            </li>
+                        <li><a href="<?php echo base_url('Fleet_Operators'); ?>">Sustainability</a></li>
 
                         </ul>
                     </li>

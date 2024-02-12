@@ -523,7 +523,7 @@
   </div>
 </section>
 
-<section>
+<section class="pt-0">
   <div class="section-3 wf-section">
       <div class="container ready_bg">
           <div class="row justify-content-between items-center">
