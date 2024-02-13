@@ -65,7 +65,19 @@
 
   }
 
+  .mpb11 {
+    display: none;
+  }
+
   @media screen and (max-width: 768px) {
+    .mpb11 {
+      display: block;
+    }
+
+    .desk {
+      display: none;
+    }
+
     .h1f {
       font-size: 18px !important;
     }
@@ -198,7 +210,7 @@
     }
   </style>
   <!-- ======= Scroll Sections ======= -->
-  <div style="height: 1900px;    background-color: #afcbbb;">
+  <div class="desk" style="height: 1900px;    background-color: #afcbbb;">
     <section id="scro1" class="m-0 p-0 scro">
       <div class="charging-section wf-section pt-0" style="padding-bottom: 60px;" id="pinn">
         <div class="container co">
@@ -272,99 +284,82 @@
     </section>
     <div class="scroup"></div>
   </div>
+  <!-- ======= Scroll Sections ======= -->
+  <section class="m-0 p-0 mpb11">
+    <div class="charging-section wf-section " style=" padding-bottom: 60px;" id="pinn">
+      <div>
+        <div class="container ">
+          <div class="row _w-1029px " style="margin-bottom:60px;">
+            <div class=" charging-text-wrapper flex-column align-items-center justify-content-center ">
+              <div class="col-12 mt-3 mb-3" style="max-width: 800px">
+                <h2 class="h2 tc text-center" style="max-width: 100%">
+                  The Current eMobility market<span class="teal"> is highly fragmented</span>
+                </h2>
+              </div>
+              <div class="col-12 mt-3 mb-3" style="max-width: 800px">
+                <p class="p text-center">
+                  The EV market is extremely fragmented and challenging for consumers to navigate because it is made up
+                  of multiple Charge Point Operators each providing their own charging options, making it tedious for
+                  users.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row _w-1029px " data-aos-anchor-placement="top-center" style="margin-bottom:60px;">
+            <div class="row flex-column align-items-center justify-content-center">
+              <div class="col-12 mt-3 mb-3" style="max-width: 800px">
+                <h2 class="h2 tc text-center" style="max-width: 100%">
+                  Need for <span class="teal">open collaboration</span>
+                </h2>
+              </div>
+              <div class="col-12 mt-3 mb-3" style="max-width: 800px">
+                <p class="p text-center">
+                  With an increase in charge point operators every year, this fragmentation and complexity will grow
+                  deeper! The eMobility market will be more complicated without an open eRoaming network, hence the need
+                  for Open Collaboration
 
-  <script>
-    // Wait for the document to be ready
-    $(document).ready(function () {
-      // Initialize the previous scroll position
-      var prevScrollPosition = $(window).scrollTop();
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row _w-1029px " data-aos-anchor-placement="top-center" style="margin-bottom:60px;">
+            <div class="row flex-column align-items-center justify-content-center">
+              <div class="col-12 mt-3 mb-3" style="max-width: 800px">
+                <h2 class="h2 tc text-center" style="max-width: 100%">
+                  Uniting the <span class="teal">EV charging market </span>
+                </h2>
+              </div>
+              <div class="col-12 mt-3 mb-3" style="max-width: 800px">
+                <p class="p text-center">
+                  ChargeSol offers EV drivers across India a seamless charging experience by bringing market players
+                  together into a consolidated and open eRoaming network.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row _w-1029px " data-aos-anchor-placement="top-center">
+            <div class="row flex-column align-items-center justify-content-center">
+              <div class="col-12 mt-3 mb-3" style="max-width: 800px">
+                <h2 class="h2 tc text-center" style="max-width: 100%">
+                  The Network <span class="teal">Effect</span>
+                </h2>
+              </div>
+              <div class="col-12 mt-3 mb-3" style="max-width: 800px">
+                <p class="p text-center">
+                  Imagine all the chargers and all the EV Owners on the same platform, and to access them, users have to
+                  download just one Application! No more dual thoughts before buying the vehicle or before developing
+                  charging infra. With the largest user base of EV owners, ChargeSol network will be the easiest
+                  approach to grow your business and access new markets.
+                </p>
+              </div>
+            </div>
+          </div>
 
-      // Add a scroll event listener
-      $(window).scroll(function () {
-        // Get the current scroll position
-        var scrollPosition = $(window).scrollTop();
+        </div>
+      </div>
+    </div>
+  </section>
 
-        // Check the scroll direction
-        var scrollDirection = scrollPosition > prevScrollPosition ? 'down' : 'up';
-
-        // Update the previous scroll position
-        prevScrollPosition = scrollPosition;
-
-        // Check if the scroll position is greater than or equal to the section offset
-        if (scrollPosition >= $(".scro").offset().top) {
-          // Add a class to make the section sticky
-          $(".scro").addClass("sticky");
-
-          // Check scroll position for opacity transitions
-          if (scrollPosition >= 700) {
-            $(".co1, .co3, .co4").css("opacity", 0);
-            $(".co2").css("opacity", 1);
-          }
-
-          if (scrollPosition >= 1200) {
-            $(".co1, .co2, .co4").css("opacity", 0);
-            $(".co3").css("opacity", 1);
-          }
-
-          if (scrollPosition >= 1700) {
-            $(".co1, .co2, .co3").css("opacity", 0);
-            $(".co4").css("opacity", 1);
-          }
-          if (scrollPosition >= 2200) {
-            $(".scro").removeClass("sticky");
-          }
-         
-        }
-              
-      });
-    });
-   // Assuming scrollDirection and scrollPosition are defined elsewhere in your code
-// Also, make sure to wrap your code inside a document ready function or use it after the DOM is loaded.
-
-// Store the initial offset of the .scro element and the height of the scro1 element
-var scroOffsetTop = $(".scro").offset().top;
-var scro1Height = $("#scro1").outerHeight();
-
-$(window).scroll(function() {
-  var scrollDirection = getScrollDirection(); // You need to define the getScrollDirection function
-  var scrollPosition = $(window).scrollTop();
-
-  if (scrollDirection === 'up' && scrollPosition > scroOffsetTop) {
-    console.log("In scroll up ==>");
-    // Add the sticky class if scrolling up and below the top position
-    $("#scro1").addClass("sticky");
-  } else {
-    // Remove the sticky class if scrolling down or not at the top position
-    $("#scro1").removeClass("sticky");
-  }
-
-  // Check if scrolling has reached the end of the "scro" section
-  var scroEndPosition = scroOffsetTop + $(".scro").outerHeight();
-  if (scrollPosition + $(window).height() >= scroEndPosition) {
-    // Perform actions when scrolling reaches the end of the "scro" section
-    console.log("Reached the end of 'scro' section");
-    // Show additional content or perform any other actions here
-  }
-});
-
-// Function to get the scroll direction (you can customize this based on your needs)
-function getScrollDirection() {
-  var lastScrollTop = 0;
-  var currentScrollTop = $(window).scrollTop();
-
-  if (currentScrollTop > lastScrollTop) {
-    return 'down';
-  } else if (currentScrollTop < lastScrollTop) {
-    return 'up';
-  }
-
-  lastScrollTop = currentScrollTop;
-}
-
-  </script>
-
-  
-  
   <section class=" wf-section " style="background-color: #fff;">
     <div class="container">
       <div class="splide logos" role="group" aria-label="Splide Basic HTML Example">
@@ -545,8 +540,6 @@ function getScrollDirection() {
   </section>
   <!-- ======= Charging Section ======= -->
 
-
-
   <!-- ======= 3-Products-Scroll-Down Section ======= -->
   <div class="section-3 wf-section">
     <div>
@@ -575,10 +568,6 @@ function getScrollDirection() {
 
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
-
-
-
-
     var splide = new Splide('.logos', {
       perPage: 6,
       rewind: true,
@@ -588,7 +577,7 @@ function getScrollDirection() {
       gap: '1rem',
       breakpoints: {
         767: {
-          perPage: 3, // Adjust perPage for mobile screens (screens with a width less than 767px)
+          perPage: 2, // Adjust perPage for mobile screens (screens with a width less than 767px)
         }
       }
     });
@@ -612,9 +601,6 @@ function getScrollDirection() {
 
     splide.mount();
 
-
-
-
     AOS.init({
       offset: 120, // offset (in px) from the original trigger point
 
@@ -626,8 +612,6 @@ function getScrollDirection() {
 
 
     var controller = new ScrollMagic.Controller();
-
-
     new ScrollMagic.Scene({
       triggerElement: '.first1',
       duration: 250,
@@ -670,4 +654,93 @@ function getScrollDirection() {
 
       //.addIndicators() // add indicators (requires plugin)
       .addTo(controller);
+  </script>
+  <script>
+    // Wait for the document to be ready
+    $(document).ready(function () {
+      // Initialize the previous scroll position
+      var prevScrollPosition = $(window).scrollTop();
+
+      // Add a scroll event listener
+      $(window).scroll(function () {
+        // Get the current scroll position
+        var scrollPosition = $(window).scrollTop();
+
+        // Check the scroll direction
+        var scrollDirection = scrollPosition > prevScrollPosition ? 'down' : 'up';
+
+        // Update the previous scroll position
+        prevScrollPosition = scrollPosition;
+
+        // Check if the scroll position is greater than or equal to the section offset
+        if (scrollPosition >= $(".scro").offset().top) {
+          // Add a class to make the section sticky
+          $(".scro").addClass("sticky");
+
+          // Check scroll position for opacity transitions
+          if (scrollPosition >= 700) {
+            $(".co1, .co3, .co4").css("opacity", 0);
+            $(".co2").css("opacity", 1);
+          }
+
+          if (scrollPosition >= 1200) {
+            $(".co1, .co2, .co4").css("opacity", 0);
+            $(".co3").css("opacity", 1);
+          }
+
+          if (scrollPosition >= 1700) {
+            $(".co1, .co2, .co3").css("opacity", 0);
+            $(".co4").css("opacity", 1);
+          }
+          if (scrollPosition >= 2200) {
+            $(".scro").removeClass("sticky");
+          }
+
+        }
+
+      });
+    });
+    // Assuming scrollDirection and scrollPosition are defined elsewhere in your code
+    // Also, make sure to wrap your code inside a document ready function or use it after the DOM is loaded.
+
+    // Store the initial offset of the .scro element and the height of the scro1 element
+    var scroOffsetTop = $(".scro").offset().top;
+    var scro1Height = $("#scro1").outerHeight();
+
+    $(window).scroll(function () {
+      var scrollDirection = getScrollDirection(); // You need to define the getScrollDirection function
+      var scrollPosition = $(window).scrollTop();
+
+      if (scrollDirection === 'up' && scrollPosition > scroOffsetTop) {
+        console.log("In scroll up ==>");
+        // Add the sticky class if scrolling up and below the top position
+        $("#scro1").addClass("sticky");
+      } else {
+        // Remove the sticky class if scrolling down or not at the top position
+        $("#scro1").removeClass("sticky");
+      }
+
+      // Check if scrolling has reached the end of the "scro" section
+      var scroEndPosition = scroOffsetTop + $(".scro").outerHeight();
+      if (scrollPosition + $(window).height() >= scroEndPosition) {
+        // Perform actions when scrolling reaches the end of the "scro" section
+        console.log("Reached the end of 'scro' section");
+        // Show additional content or perform any other actions here
+      }
+    });
+
+    // Function to get the scroll direction (you can customize this based on your needs)
+    function getScrollDirection() {
+      var lastScrollTop = 0;
+      var currentScrollTop = $(window).scrollTop();
+
+      if (currentScrollTop > lastScrollTop) {
+        return 'down';
+      } else if (currentScrollTop < lastScrollTop) {
+        return 'up';
+      }
+
+      lastScrollTop = currentScrollTop;
+    }
+
   </script>
