@@ -88,7 +88,7 @@
   }
 
   .co {
-    height: 100vh;
+    height: 90vh;
     position: relative;
   }
 
@@ -192,15 +192,15 @@
     .co2,
     .co3,
     .co4 {
-      transition: opacity 1s ease;
+      transition: opacity 3s ease;
       max-width: 100%;
-      height: 500px;
+      height: 100%;
     }
   </style>
   <!-- ======= Scroll Sections ======= -->
   <div style="height: 1900px;    background-color: #afcbbb;">
     <section id="scro1" class="m-0 p-0 scro">
-      <div class="charging-section wf-section " style="padding-bottom: 60px;" id="pinn">
+      <div class="charging-section wf-section pt-0" style="padding-bottom: 60px;" id="pinn">
         <div class="container co">
           <div class="row _w-1029px co1" style="position: absolute;">
             <div class=" charging-text-wrapper flex-column align-items-center justify-content-center ">
@@ -310,30 +310,57 @@
             $(".co1, .co2, .co3").css("opacity", 0);
             $(".co4").css("opacity", 1);
           }
-
-          if (scrollPosition >= 2200 && scrollDirection === 'down') {
+          if (scrollPosition >= 2200) {
             $(".scro").removeClass("sticky");
           }
+         
         }
-        if (scrollPosition >= 2200 && scrollDirection === 'up') {
-          console.log("remove class ==>")
-          $(".scro").removeClass("sticky");
-        }
-        if (scrollDirection === 'up' && scrollPosition > $(".scro").offset().top) {
-          console.log("In scolle up ==>")
-          // Remove the sticky class if scrolling up and at the top position
-          $("#scro1").addClass("sticky");
-          
-        }
-
-       
-          // Remove the sticky class if scrolling up and at the top position
-          
-          
-        
-        
+              
       });
     });
+   // Assuming scrollDirection and scrollPosition are defined elsewhere in your code
+// Also, make sure to wrap your code inside a document ready function or use it after the DOM is loaded.
+
+// Store the initial offset of the .scro element and the height of the scro1 element
+var scroOffsetTop = $(".scro").offset().top;
+var scro1Height = $("#scro1").outerHeight();
+
+$(window).scroll(function() {
+  var scrollDirection = getScrollDirection(); // You need to define the getScrollDirection function
+  var scrollPosition = $(window).scrollTop();
+
+  if (scrollDirection === 'up' && scrollPosition > scroOffsetTop) {
+    console.log("In scroll up ==>");
+    // Add the sticky class if scrolling up and below the top position
+    $("#scro1").addClass("sticky");
+  } else {
+    // Remove the sticky class if scrolling down or not at the top position
+    $("#scro1").removeClass("sticky");
+  }
+
+  // Check if scrolling has reached the end of the "scro" section
+  var scroEndPosition = scroOffsetTop + $(".scro").outerHeight();
+  if (scrollPosition + $(window).height() >= scroEndPosition) {
+    // Perform actions when scrolling reaches the end of the "scro" section
+    console.log("Reached the end of 'scro' section");
+    // Show additional content or perform any other actions here
+  }
+});
+
+// Function to get the scroll direction (you can customize this based on your needs)
+function getScrollDirection() {
+  var lastScrollTop = 0;
+  var currentScrollTop = $(window).scrollTop();
+
+  if (currentScrollTop > lastScrollTop) {
+    return 'down';
+  } else if (currentScrollTop < lastScrollTop) {
+    return 'up';
+  }
+
+  lastScrollTop = currentScrollTop;
+}
+
   </script>
 
   
