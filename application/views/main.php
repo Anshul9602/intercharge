@@ -1,7 +1,7 @@
 <link href="<?php echo base_url(); ?>/assets/css/mainpage.css" rel="stylesheet">
 
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <style>
   .header {
     background-color: transparent;
@@ -79,11 +79,39 @@
       line-height: 20px !important;
       font-size: 13px !important;
     }
-    #about .container{
 
-    padding: 0 30px !important;
+    #about .container {
+
+      padding: 0 30px !important;
     }
 
+  }
+
+  .co {
+    height: 100vh;
+    position: relative;
+  }
+
+  .bold {
+    font-weight: 600;
+    color: #013220;
+  }
+
+  .auth {
+    color: #203635;
+    font-weight: 600;
+  }
+
+  .splide__arrow--prev {
+    left: -3em;
+  }
+
+  .splide__arrow--next {
+    right: -2em;
+  }
+
+  .why p {
+    font-size: 15px;
   }
 </style>
 
@@ -107,7 +135,8 @@
           <span style="letter-spacing: 2px; line-height: 36px;"> Get Started with the widest eRoaming network that will
             change</span>
         </h3>
-        <h1 class="h1f mt-md-3 mt-3" style="margin: 0; font-size: 4em; --fontSize: 26; ">The way you charge your EV on-the-go! </h1>
+        <h1 class="h1f mt-md-3 mt-3" style="margin: 0; font-size: 4em; --fontSize: 26; ">The way you charge your EV
+          on-the-go! </h1>
       </div>
 
       <!-- Additional Centered Text After Video -->
@@ -147,19 +176,40 @@
     </div>
   </section>
 
+  <style>
+    /* Add your existing styles here */
+
+    /* Add a class to make the section sticky */
+    .sticky {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+
+    /* Add classes for opacity transitions */
+    .co1,
+    .co2,
+    .co3,
+    .co4 {
+      transition: opacity 1s ease;
+      max-width: 100%;
+      height: 500px;
+    }
+  </style>
   <!-- ======= Scroll Sections ======= -->
-  <section class="m-0 p-0">
-    <div class="charging-section wf-section " style=" padding-bottom: 60px;" id="pinn">
-      <div>
-        <div class="container ">
-          <div class="row _w-1029px " style="margin-bottom:60px;">
+  <div style="height: 1900px;    background-color: #afcbbb;">
+    <section id="scro1" class="m-0 p-0 scro">
+      <div class="charging-section wf-section " style="padding-bottom: 60px;" id="pinn">
+        <div class="container co">
+          <div class="row _w-1029px co1" style="position: absolute;">
             <div class=" charging-text-wrapper flex-column align-items-center justify-content-center ">
-              <div class="col-12 mt-3 mb-3" style="max-width: 800px">
+              <div class="col-12 mt-3 mb-3">
                 <h2 class="h2 tc text-center" style="max-width: 100%">
                   The Current eMobility market<span class="teal"> is highly fragmented</span>
                 </h2>
               </div>
-              <div class="col-12 mt-3 mb-3" style="max-width: 800px">
+              <div class="col-12 mt-3 mb-3">
                 <p class="p text-center">
                   The EV market is extremely fragmented and challenging for consumers to navigate because it is made up
                   of multiple Charge Point Operators each providing their own charging options, making it tedious for
@@ -168,14 +218,14 @@
               </div>
             </div>
           </div>
-          <div class="row _w-1029px " data-aos-anchor-placement="top-center" style="margin-bottom:60px;">
+          <div class="row _w-1029px co2" data-aos-anchor-placement="top-center" style="opacity: 0;position: absolute;">
             <div class="row flex-column align-items-center justify-content-center">
-              <div class="col-12 mt-3 mb-3" style="max-width: 800px">
+              <div class="col-12 mt-3 mb-3">
                 <h2 class="h2 tc text-center" style="max-width: 100%">
                   Need for <span class="teal">open collaboration</span>
                 </h2>
               </div>
-              <div class="col-12 mt-3 mb-3" style="max-width: 800px">
+              <div class="col-12 mt-3 mb-3">
                 <p class="p text-center">
                   With an increase in charge point operators every year, this fragmentation and complexity will grow
                   deeper! The eMobility market will be more complicated without an open eRoaming network, hence the need
@@ -185,14 +235,14 @@
               </div>
             </div>
           </div>
-          <div class="row _w-1029px " data-aos-anchor-placement="top-center" style="margin-bottom:60px;">
+          <div class="row _w-1029px co3" data-aos-anchor-placement="top-center" style="opacity: 0;position: absolute;">
             <div class="row flex-column align-items-center justify-content-center">
-              <div class="col-12 mt-3 mb-3" style="max-width: 800px">
+              <div class="col-12 mt-3 mb-3">
                 <h2 class="h2 tc text-center" style="max-width: 100%">
                   Uniting the <span class="teal">EV charging market </span>
                 </h2>
               </div>
-              <div class="col-12 mt-3 mb-3" style="max-width: 800px">
+              <div class="col-12 mt-3 mb-3">
                 <p class="p text-center">
                   ChargeSol offers EV drivers across India a seamless charging experience by bringing market players
                   together into a consolidated and open eRoaming network.
@@ -200,14 +250,14 @@
               </div>
             </div>
           </div>
-          <div class="row _w-1029px " data-aos-anchor-placement="top-center">
+          <div class="row _w-1029px co4" data-aos-anchor-placement="top-center" style="opacity: 0;position: absolute;">
             <div class="row flex-column align-items-center justify-content-center">
-              <div class="col-12 mt-3 mb-3" style="max-width: 800px">
+              <div class="col-12 mt-3 mb-3">
                 <h2 class="h2 tc text-center" style="max-width: 100%">
                   The Network <span class="teal">Effect</span>
                 </h2>
               </div>
-              <div class="col-12 mt-3 mb-3" style="max-width: 800px">
+              <div class="col-12 mt-3 mb-3">
                 <p class="p text-center">
                   Imagine all the chargers and all the EV Owners on the same platform, and to access them, users have to
                   download just one Application! No more dual thoughts before buying the vehicle or before developing
@@ -217,34 +267,77 @@
               </div>
             </div>
           </div>
-
         </div>
       </div>
-    </div>
-  </section>
-  <style>
-    .bold {
-      font-weight: 600;
-      color: #013220;
-    }
+    </section>
+    <div class="scroup"></div>
+  </div>
 
-    .auth {
-      color: #203635;
-      font-weight: 600;
-    }
+  <script>
+    // Wait for the document to be ready
+    $(document).ready(function () {
+      // Initialize the previous scroll position
+      var prevScrollPosition = $(window).scrollTop();
 
-    .splide__arrow--prev {
-      left: -3em;
-    }
+      // Add a scroll event listener
+      $(window).scroll(function () {
+        // Get the current scroll position
+        var scrollPosition = $(window).scrollTop();
 
-    .splide__arrow--next {
-      right: -2em;
-    }
+        // Check the scroll direction
+        var scrollDirection = scrollPosition > prevScrollPosition ? 'down' : 'up';
 
-    .why p {
-      font-size: 15px;
-    }
-  </style>
+        // Update the previous scroll position
+        prevScrollPosition = scrollPosition;
+
+        // Check if the scroll position is greater than or equal to the section offset
+        if (scrollPosition >= $(".scro").offset().top) {
+          // Add a class to make the section sticky
+          $(".scro").addClass("sticky");
+
+          // Check scroll position for opacity transitions
+          if (scrollPosition >= 700) {
+            $(".co1, .co3, .co4").css("opacity", 0);
+            $(".co2").css("opacity", 1);
+          }
+
+          if (scrollPosition >= 1200) {
+            $(".co1, .co2, .co4").css("opacity", 0);
+            $(".co3").css("opacity", 1);
+          }
+
+          if (scrollPosition >= 1700) {
+            $(".co1, .co2, .co3").css("opacity", 0);
+            $(".co4").css("opacity", 1);
+          }
+
+          if (scrollPosition >= 2200 && scrollDirection === 'down') {
+            $(".scro").removeClass("sticky");
+          }
+        }
+        if (scrollPosition >= 2200 && scrollDirection === 'up') {
+          console.log("remove class ==>")
+          $(".scro").removeClass("sticky");
+        }
+        if (scrollDirection === 'up' && scrollPosition > $(".scro").offset().top) {
+          console.log("In scolle up ==>")
+          // Remove the sticky class if scrolling up and at the top position
+          $("#scro1").addClass("sticky");
+          
+        }
+
+       
+          // Remove the sticky class if scrolling up and at the top position
+          
+          
+        
+        
+      });
+    });
+  </script>
+
+  
+  
   <section class=" wf-section " style="background-color: #fff;">
     <div class="container">
       <div class="splide logos" role="group" aria-label="Splide Basic HTML Example">
@@ -285,6 +378,7 @@
       </div>
     </div>
   </section>
+
   <!-- ======= Why ChargeSol Section ======= -->
   <section id="about" class="whyChargeSol charging-section" style="padding:30px 0 ;">
     <div class="container py-5">
