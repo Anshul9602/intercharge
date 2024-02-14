@@ -1,7 +1,7 @@
 <link href="<?php echo base_url(); ?>/assets/css/mainpage.css" rel="stylesheet">
 
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
 <style>
   .header {
     background-color: transparent;

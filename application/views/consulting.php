@@ -40,26 +40,32 @@
   .card {
     background-color: #afcbbb;
   }
-  .mob11{
-  display: none;
-  }
-  @media screen and (max-width: 768px) {
-    .mob11{
-   display:block;
-    }
-    .desk{
+
+  .mob11 {
     display: none;
+  }
+
+  @media screen and (max-width: 768px) {
+    .mob11 {
+      display: block;
     }
-    .mobmax{
-    max-width: 100% !important;
+
+    .desk {
+      display: none;
     }
+
+    .mobmax {
+      max-width: 100% !important;
+    }
+
     .splide__arrow--prev {
       left: -4em !important;
     }
-    .mbc{
-    justify-content: center;
+
+    .mbc {
+      justify-content: center;
     }
-}
+  }
 </style>
 <style>
   .col-nn {
@@ -138,28 +144,42 @@
   .active {
     background-color: #afcbbb;
   }
+
   .container {
     max-width: 90%;
     margin: auto;
     overflow: hidden;
-}
+  }
 
-.card {
+  .card {
     display: none;
     opacity: 0;
     transition: opacity 0.8s ease-in-out;
-}
+  }
 
-.card.visible {
+  .card.visible {
     display: block;
     opacity: 1;
-}
+  }
 
-.card img {
+  .card img {
     max-width: 100%;
     height: auto;
+  }
+  .pabs{
+    position: fixed;
+    top: 25%;
+    width: 79%;}
+  .pabst{
+    position: fixed;
+    top: 40%;
+    width: 79%;
 }
-
+  .pabst1{
+    position: fixed;
+    top: 50%;
+    width: 79%;
+}
 
 
 </style>
@@ -194,48 +214,154 @@
 </section>
 <section style="background-color: #eef5db;">
   <div class="container">
-    <div class="main mt-4 pb-md-5 pb-1">
+    <div id="scro1" class="main mt-4 pb-md-5 pb-1 scro">
       <h2 class="text-center" style="font-weight: 700;">What can we do for you</h2>
 
     </div>
     <div class="sl mt-4">
-      <div class="container" style="max-width: 90%; margin:auto;">
-        <div class="card p-md-5 p-3 ">
-          <div class="icon">
-            <img src="assets/img/con1.svg" alt="">
+      <div class="container " style="max-width: 90%; margin:auto;    position: relative;">
+        <div class="con1" style="align-items: center;display: flex;">
+          <div class="card p-md-5 p-3 ">
+            <div class="icon">
+              <img src="assets/img/con1.svg" alt="">
+            </div>
+            <h2 class="mt-md-4 mt-2 pb-md-3 pb-2" style="font-weight: 600;">Advance with strategy</h2>
+            <p>ChargeSol Consulting simplifies the process of entering and scaling up in the EV charging industry – no
+              matter
+              what market sector or location our clients originate in. Using industry expertise combined with
+              issue-specific
+              benchmarks and assessments, we help our clients to strategize and prioritize. </p>
           </div>
-          <h2 class="mt-md-4 mt-2 pb-md-3 pb-2" style="font-weight: 600;">Advance with strategy</h2>
-          <p>ChargeSol Consulting simplifies the process of entering and scaling up in the EV charging industry – no
-            matter
-            what market sector or location our clients originate in. Using industry expertise combined with
-            issue-specific
-            benchmarks and assessments, we help our clients to strategize and prioritize. </p>
         </div>
-        <div class="card p-md-5 p-3 mt-3">
-          <div class="icon">
-            <img src="assets/img/cou3.svg" alt="">
+        <div class=""style="height: 1000px;align-items: center;display: flex;">
+          <div class="card p-md-5 p-3 mt-3 con2">
+            <div class="icon">
+              <img src="assets/img/cou3.svg" alt="">
+            </div>
+            <h2 class="mt-md-4 mt-2 pb-md-3 pb-2" style="font-weight: 600;">Harness new technologies</h2>
+            <p>Successfully navigating the eMobility industry means embracing innovation. Our consultants specialise in
+              the
+              newest technologies defining the industry: from Plug&Charge to smart charging, our clients are ahead of
+              the
+              curve in implementing new technologies to advance the field. </p>
           </div>
-          <h2 class="mt-md-4 mt-2 pb-md-3 pb-2" style="font-weight: 600;">Harness new technologies</h2>
-          <p>Successfully navigating the eMobility industry means embracing innovation. Our consultants specialise in
-            the
-            newest technologies defining the industry: from Plug&Charge to smart charging, our clients are ahead of the
-            curve in implementing new technologies to advance the field. </p>
         </div>
-        <div class="card p-md-5 p-3 mt-3">
-          <div class="icon">
-            <img src="assets/img/con2.svg" alt="">
+        <div class=""style="height: 1000px;align-items: center;display: flex;">
+          <div class="card p-md-5 p-3 mt-3 con3">
+            <div class="icon">
+              <img src="assets/img/con2.svg" alt="">
+            </div>
+            <h2 class="mt-md-4 mt-2 pb-md-3 pb-2" style="font-weight: 600;">Streamline your operations</h2>
+            <p>We bring in detailed data and valuable insights to help our clients manage the complexity of their
+              operations
+              in the eMobility sector. We find and resolve business-critical maintenance and performance issues and help
+              our
+              clients achieve smooth operations that guarantee their success.</p>
           </div>
-          <h2 class="mt-md-4 mt-2 pb-md-3 pb-2" style="font-weight: 600;">Streamline your operations</h2>
-          <p>We bring in detailed data and valuable insights to help our clients manage the complexity of their
-            operations
-            in the eMobility sector. We find and resolve business-critical maintenance and performance issues and help
-            our
-            clients achieve smooth operations that guarantee their success.</p>
         </div>
+
       </div>
     </div>
   </div>
 </section>
+
+<script>
+  function getScrollHeight() {
+    // Get the vertical scroll position
+    var scrollHeight = window.scrollY || window.pageYOffset || document.documentElement.scrollTop;
+  
+    return scrollHeight;
+  }
+   window.addEventListener('scroll', function() {
+    var scrollPosition = getScrollHeight();
+    console.log("Vertical Scroll Position: " + scrollPosition);
+  });
+  // Wait for the document to be ready
+  $(document).ready(function () {
+    // Initialize the previous scroll position
+    var prevScrollPosition = $(window).scrollTop();
+
+    // Add a scroll event listener
+    $(window).scroll(function () {
+      
+      // Get the current scroll position
+      var scrollPosition = $(window).scrollTop();
+
+      // Check the scroll direction
+      var scrollDirection = scrollPosition > prevScrollPosition ? 'down' : 'up';
+
+      // Update the previous scroll position
+      prevScrollPosition = scrollPosition;
+
+      // Check if the scroll position is greater than or equal to the section offset
+      if (scrollPosition >= $(".scro").offset().top) {
+        // Add a class to make the section sticky
+        $(".con1").addClass("pabs");
+
+        // Check scroll position for opacity transitions
+        if (scrollPosition >= 1050) {
+          
+          $(".con2").addClass("pabst");
+        }
+
+        if (scrollPosition >= 100) {
+          $(".con3").addClass("pabst1");
+        }
+
+     
+        if (scrollPosition >= 2200) {
+          $(".scro").removeClass("sticky");
+        }
+
+      }
+
+    });
+  });
+  // Assuming scrollDirection and scrollPosition are defined elsewhere in your code
+  // Also, make sure to wrap your code inside a document ready function or use it after the DOM is loaded.
+
+  // Store the initial offset of the .scro element and the height of the scro1 element
+  var scroOffsetTop = $(".scro").offset().top;
+  var scro1Height = $("#scro1").outerHeight();
+
+  $(window).scroll(function () {
+    var scrollDirection = getScrollDirection(); // You need to define the getScrollDirection function
+    var scrollPosition = $(window).scrollTop();
+
+    if (scrollDirection === 'up' && scrollPosition > scroOffsetTop) {
+      console.log("In scroll up ==>");
+      // Add the sticky class if scrolling up and below the top position
+      $("#scro1").addClass("sticky");
+    } else {
+      // Remove the sticky class if scrolling down or not at the top position
+      $("#scro1").removeClass("sticky");
+    }
+
+    // Check if scrolling has reached the end of the "scro" section
+    var scroEndPosition = scroOffsetTop + $(".scro").outerHeight();
+    if (scrollPosition + $(window).height() >= scroEndPosition) {
+      // Perform actions when scrolling reaches the end of the "scro" section
+      console.log("Reached the end of 'scro' section");
+      // Show additional content or perform any other actions here
+    }
+  });
+
+  // Function to get the scroll direction (you can customize this based on your needs)
+  function getScrollDirection() {
+    var lastScrollTop = 0;
+    var currentScrollTop = $(window).scrollTop();
+
+    if (currentScrollTop > lastScrollTop) {
+      return 'down';
+    } else if (currentScrollTop < lastScrollTop) {
+      return 'up';
+    }
+
+    lastScrollTop = currentScrollTop;
+  }
+
+</script>
+
 <section style="background-color: #eef5db;">
   <div class="container desk">
     <h2 class="pb-md-5 pb-3 text-center" style="font-weight: 800;">Our service offering</h2>
@@ -473,7 +599,8 @@
 </section>
 <section style="background-color: #eef5db;">
   <div class="container">
-    <h1 class="mobmax" style="font-weight: 800;max-width:60%;">From startups to enterprises, more than 150 companies trust our
+    <h1 class="mobmax" style="font-weight: 800;max-width:60%;">From startups to enterprises, more than 150 companies
+      trust our
       expertise</h1>
     <div class="sl11 mt-md-5 mt-2">
       <div class="splide logos" role="group" aria-label="Splide Basic HTML Example">
@@ -525,48 +652,48 @@
 
 <section class="pt-0">
   <div class="section-3 wf-section">
-      <div class="container ready_bg">
-          <div class="row justify-content-between items-center">
-              <div class="col-md-7">
-                  <h2 class="aside-title">
-                      Join the ChargeSol <span class="teal">Revolution</span>: Powering the future of Electric
-                      Mobility
-                  </h2>
-                  <p class="aside-p">
-                      Gain a competitive advantage by joining the world’s largest
-                      eRoaming network.
-                  </p>
-                  <a href="<?php echo base_url('Contact'); ?>" data-w-id="c17c272e-a5d2-ba46-c5b9-42170fb868df"
-                      class="aside-btn button w-button">Get Started Today</a>
-              </div>
-          </div>
+    <div class="container ready_bg">
+      <div class="row justify-content-between items-center">
+        <div class="col-md-7">
+          <h2 class="aside-title">
+            Join the ChargeSol <span class="teal">Revolution</span>: Powering the future of Electric
+            Mobility
+          </h2>
+          <p class="aside-p">
+            Gain a competitive advantage by joining the world’s largest
+            eRoaming network.
+          </p>
+          <a href="<?php echo base_url('Contact'); ?>" data-w-id="c17c272e-a5d2-ba46-c5b9-42170fb868df"
+            class="aside-btn button w-button">Get Started Today</a>
+        </div>
       </div>
+    </div>
   </div>
-  
+
 </section>
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-      let cards = document.querySelectorAll('.card');
-      let windowHeight = window.innerHeight;
+    let cards = document.querySelectorAll('.card');
+    let windowHeight = window.innerHeight;
 
-      function checkAndShowCards() {
-          cards.forEach(function (card, index) {
-              let positionFromTop = card.getBoundingClientRect().top;
+    function checkAndShowCards() {
+      cards.forEach(function (card, index) {
+        let positionFromTop = card.getBoundingClientRect().top;
 
-              if (positionFromTop - windowHeight <= 0) {
-                  card.classList.add('visible');
-              }
-          });
-      }
-
-      window.addEventListener('scroll', checkAndShowCards);
-      window.addEventListener('resize', function () {
-          windowHeight = window.innerHeight;
-          checkAndShowCards();
+        if (positionFromTop - windowHeight <= 0) {
+          card.classList.add('visible');
+        }
       });
+    }
 
-      // Initial check
+    window.addEventListener('scroll', checkAndShowCards);
+    window.addEventListener('resize', function () {
+      windowHeight = window.innerHeight;
       checkAndShowCards();
+    });
+
+    // Initial check
+    checkAndShowCards();
   });
 </script>
 
