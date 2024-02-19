@@ -223,9 +223,7 @@
               </div>
               <div class="col-12 mt-3 mb-3">
                 <p class="p text-center">
-                  The EV market is extremely fragmented and challenging for consumers to navigate because it is made up
-                  of multiple Charge Point Operators each providing their own charging options, making it tedious for
-                  users.
+                  The EV market's fragmentation, with various Charge Point Operators (CPOs) providing their charging options, complicates consumer navigation. This multitude of choices leads to confusion, making journey planning and access to charging infrastructure challenging. Simplifying this experience is essential for boosting user adoption and satisfaction in the electric vehicle ecosystem
                 </p>
               </div>
             </div>
@@ -239,9 +237,7 @@
               </div>
               <div class="col-12 mt-3 mb-3">
                 <p class="p text-center">
-                  With an increase in charge point operators every year, this fragmentation and complexity will grow
-                  deeper! The eMobility market will be more complicated without an open eRoaming network, hence the need
-                  for Open Collaboration
+                  With the increasing number of charge point operators each year, the eMobility market becomes more fragmented and complex. Without an open eRoaming network, navigating this landscape becomes challenging. Open collaboration is crucial for simplifying the market and ensuring seamless access to charging infrastructure for all users
 
                 </p>
               </div>
@@ -256,8 +252,7 @@
               </div>
               <div class="col-12 mt-3 mb-3">
                 <p class="p text-center">
-                  ChargeSol offers EV drivers across India a seamless charging experience by bringing market players
-                  together into a consolidated and open eRoaming network.
+                  ChargeSol offers EV drivers across India a seamless charging experience by bringing market players together into a consolidated and open eRoaming network
                 </p>
               </div>
             </div>
@@ -271,10 +266,7 @@
               </div>
               <div class="col-12 mt-3 mb-3">
                 <p class="p text-center">
-                  Imagine all the chargers and all the EV Owners on the same platform, and to access them, users have to
-                  download just one Application! No more dual thoughts before buying the vehicle or before developing
-                  charging infra. With the largest user base of EV owners, ChargeSol network will be the easiest
-                  approach to grow your business and access new markets.
+                  Envision every charger and EV owner seamlessly connected on a single platform. With just one application download, users gain access to all. No more hesitation before purchasing a vehicle or developing charging infrastructure. With the largest user base of 
                 </p>
               </div>
             </div>
@@ -298,9 +290,7 @@
               </div>
               <div class="col-12 mt-3 mb-3" style="max-width: 800px">
                 <p class="p text-center">
-                  The EV market is extremely fragmented and challenging for consumers to navigate because it is made up
-                  of multiple Charge Point Operators each providing their own charging options, making it tedious for
-                  users.
+                  The EV market's fragmentation, with various Charge Point Operators (CPOs) providing their charging options, complicates consumer navigation. This multitude of choices leads to confusion, making journey planning and access to charging infrastructure challenging. Simplifying this experience is essential for boosting user adoption and satisfaction in the electric vehicle ecosystem
                 </p>
               </div>
             </div>
@@ -314,9 +304,7 @@
               </div>
               <div class="col-12 mt-3 mb-3" style="max-width: 800px">
                 <p class="p text-center">
-                  With an increase in charge point operators every year, this fragmentation and complexity will grow
-                  deeper! The eMobility market will be more complicated without an open eRoaming network, hence the need
-                  for Open Collaboration
+                  With the increasing number of charge point operators each year, the eMobility market becomes more fragmented and complex. Without an open eRoaming network, navigating this landscape becomes challenging. Open collaboration is crucial for simplifying the market and ensuring seamless access to charging infrastructure for all users
 
                 </p>
               </div>
@@ -331,8 +319,7 @@
               </div>
               <div class="col-12 mt-3 mb-3" style="max-width: 800px">
                 <p class="p text-center">
-                  ChargeSol offers EV drivers across India a seamless charging experience by bringing market players
-                  together into a consolidated and open eRoaming network.
+                  ChargeSol offers EV drivers across India a seamless charging experience by bringing market players together into a consolidated and open eRoaming network
                 </p>
               </div>
             </div>
@@ -346,10 +333,7 @@
               </div>
               <div class="col-12 mt-3 mb-3" style="max-width: 800px">
                 <p class="p text-center">
-                  Imagine all the chargers and all the EV Owners on the same platform, and to access them, users have to
-                  download just one Application! No more dual thoughts before buying the vehicle or before developing
-                  charging infra. With the largest user base of EV owners, ChargeSol network will be the easiest
-                  approach to grow your business and access new markets.
+                  Envision every charger and EV owner seamlessly connected on a single platform. With just one application download, users gain access to all. No more hesitation before purchasing a vehicle or developing charging infrastructure. With the largest user base of EV owners, ChargeSol network offers the simplest path to expanding your business and accessing new markets.
                 </p>
               </div>
             </div>
