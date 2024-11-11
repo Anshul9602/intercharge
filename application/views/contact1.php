@@ -4,7 +4,7 @@
             <div class="row justify-content-between items-center">
                 <div class="col-md-12 text-center">
                     <h1 class="mb-3">
-                        Contact ChargeSol
+                        Contact Chargesol Technology Private Limited 
                     </h1>
                     <h4 class="text-center">
                         The best ways to<br> get in touch with<br> us
@@ -17,8 +17,29 @@
                         -45deg;width:200px;height:200px;justify-content:
                         center;display: flex;align-items: center;">
                         <p class="text-center" style="rotate: 45deg;">
-                            For partner enquiries<br> write to us at - <br>
+                            For any enquiries<br> write to us at - <br>
                             team@ChargeSol.in
+                        </p>
+                    </div>
+
+                </div>
+                <div class="col-md-6 text-center pd-top">
+                    <div class="container wh-mob" style="background-color:#fea629;rotate:
+                        -45deg;width:200px;height:200px;justify-content:
+                        center;display: flex;align-items: center;">
+                        <p class="text-center" style="rotate: 45deg;">
+                            For any enquiries<br> call to us at - <br>
+                            +91 91660 71218
+                        </p>
+                    </div>
+
+                </div>
+                <div class="col-md-6 text-center pd-top">
+                    <div class="container wh-mob" style="background-color:#fea629;rotate:
+                        -45deg;width:200px;height:200px;justify-content:
+                        center;display: flex;align-items: center;">
+                        <p class="text-center" style="rotate: 45deg;">
+                            Plot No. 88P, 3rd Floor, Sector 41, Gurgaon, Haryana - 122001
                         </p>
                     </div>
 

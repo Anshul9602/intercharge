@@ -41,111 +41,49 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="
-  https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
-  "></script>
-    <link href="
-  https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
-  " rel="stylesheet">
-    <style>
-        .aside-btn {
-            background-color: #17a398 !important;
-            color: #fff !important;
-        }
-
-        @media screen and (max-width: 768px) {
-            .section {
-                padding: 20px 0 !important;
-            }
-
-            #header {
-                height: auto !important;
-                padding: 10px 0;
-            }
-
-            #header .logo img {
-                max-width: 130px !important;
-            }
-
-            .mobile-nav-show {
-                color: #17a398;
-            }
-
-            .mar {
-                margin-left: 0px;
-                margin-right: 0px;
-            }
-
-            .mmc {
-                text-align: center !important;
-                margin-top: 10px !important;
-            }
-            .container{
-            width: 95% !important;
-            margin: auto !important;
-            }
-            .splide__arrow--next {
-                right: -1em !important;
-            }
-            .splide__arrow--prev {
-                left: -1em !important;
-            }
-        }
-    </style>
 </head>
 
 <body>
 
-
     <!-- ======= Header ======= -->
     <!-- End Top Bar -->
 
-    <header id="header" class="header d-flex align-items-center addclass nav-down" style="width: 100%;">
+    <header id="header" class="header d-flex align-items-center addclass nav-down">
 
         <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
             <a href="<?php echo base_url(); ?>" class="logo d-flex align-items-center">
                 <!-- Uncomment the line below if you also wish to use an image logo -->
-                <img src="assets/img/logo.png" style="max-width:250px;" alt="">
+                <img src="assets/img/logo2.png" style="max-width:250px;" alt="">
                 <!-- <h1>ChargeSol<span>.</span></h1>  -->
             </a>
             <nav id="navbar" class="navbar">
                 <ul>
-
-                    <li class="dropdown"><a href="#">Product <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                    <li><a href="<?php echo base_url(); ?>">Home</a></li>
+                    <li class="dropdown"><a href="#">Solutions <i class="bi bi-chevron-down dropdown-indicator"></i></a>
                         <ul>
-                            <li><a href="<?php echo base_url('CPMS'); ?>">CPMS</a></li>
-                            <li><a href="<?php echo base_url('App'); ?>">App</a></li>
-                            <li><a href="<?php echo base_url('FM'); ?>">FM SaaS</a> </li>
+                            <li><a href="<?php echo base_url('Cpo'); ?>">ChargeSol for CPOs</a></li>
+                            <li><a href="<?php echo base_url('OEMs'); ?>">ChargeSol OEMs</a></li>
 
+                            <li><a href="<?php echo base_url('Fleet_Operators'); ?>">ChargeSol for Fleet Operators</a>
+                            </li>
+                            <li><a href="<?php echo base_url('Other'); ?>">Other Businesses</a></li>
 
                         </ul>
                     </li>
-                    <li class="dropdown"><a href="#">Partner<i class="bi bi-chevron-down dropdown-indicator"></i></a>
-                        <ul>
-                            <li><a href="<?php echo base_url('Fleet_Operators'); ?>">Fleet</a></li>
-                            <li><a href="<?php echo base_url('Automakers'); ?>">Automaker</a></li>
 
-                            <li><a href="<?php echo base_url('Cpo'); ?>">CPO</a> </li>
-                            <li><a href="<?php echo base_url('Host'); ?>">Host</a> </li>
-                            <li><a href="<?php echo base_url('Partners'); ?>">Businesses</a></li>
-
-                        </ul>
-                    </li>
-                    <li><a href="<?php echo base_url('Consulting'); ?>">Consulting</a></li>
-                    <li><a href="<?php echo base_url('Chargeshare'); ?>">ChargeShare</a></li>
-                    <li class="dropdown "><a href="<?php echo base_url('Mission'); ?>">About Us <i
+                    <li class="dropdown"><a href="#"><span>Company</span> <i
                                 class="bi bi-chevron-down dropdown-indicator"></i></a>
                         <ul>
-                            <li><a href="<?php echo base_url('Mission'); ?>">Mission & Vision </a></li>
-                            <li><a href="<?php echo base_url('Partners'); ?>">Partners</a></li>
-                        <li><a href="<?php echo base_url('Fleet_Operators'); ?>">Sustainability</a></li>
+
+                            <li><a href="<?php echo base_url('About_Us'); ?>"><span>About Us</span> </a>
+                            </li>
+
+                            <li><a href="<?php echo base_url('Career'); ?>">Career</a></li>
+
 
                         </ul>
                     </li>
-
-
-                    <li><a href="<?php echo base_url('Contact'); ?>">Lets Connect</a></li>
+                    <li><a href="<?php echo base_url('Contact1'); ?>">Contact</a></li>
                 </ul>
             </nav><!-- .navbar -->
 

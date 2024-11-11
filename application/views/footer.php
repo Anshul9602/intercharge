@@ -11,7 +11,7 @@
 
 .social_icon {
     font-size: 25px;
-    color: #17a398 !important;
+    color: #f26522 !important;
     display: none;
 }
 
@@ -38,7 +38,7 @@ hr {
 .formContainer {
     max-width: 700px;
     padding: 20px;
-    background-color: #17a398;
+    background-color: #f26522;
 }
 
 
@@ -79,7 +79,7 @@ hr {
                     <button type="button" class="btn cancel" onclick="closeForm1()"><i class="bi bi-x-lg"></i></button>
                 </div>
 
-                <img class="fimg" src="assets/img/logo2.png" width="250" alt="">
+                <img src="assets/img/logo2.png" width="250" alt="">
                 <h3 class="mt-5" style="color:#fff;font-weight: 800;">YOUR TRUSTED ADVISOR FOR NAVIGATING THE EV
                     ECOSYSTEM</h3>
                 <h5 class="mt-3 pb-5"> Please reach out to us at <a href="mailto: team@ChargeSol.in"><span
@@ -184,13 +184,13 @@ hr {
         </div>
     </div>
 </div>
-<footer class="footer-no-negative wf-section pb-0">
+<footer class="footer-no-negative wf-section">
     <div>
         <div class="container">
             <div class="  footer-row-1 row tc" style="    justify-content: space-around;">
-                <div class="col-lg-3 col-md-12 col-sm-12  mb-3"><a href="#" aria-current="page"
+                <div class="col-lg-3 col-md-12 col-sm-12  mb-3"><a href="<?php echo base_url(''); ?>" aria-current="page"
                         class="w-inline-block w--current">
-                        <img src="assets/img/logo2.png" alt="" style="width:60%;">
+                        <img src="assets/img/logo2.png" alt="" style="width:100%;">
                     </a>
                 </div>
                 <div class="div-block-24 row col-lg-9 col-md-12 col-sm-12 mt-3 mb-3">
@@ -219,6 +219,7 @@ hr {
                             <a href="<?php echo base_url('About_Us'); ?>" class="footer-links mt-25">About Us</a>
                             <a href="<?php echo base_url('Career'); ?>" class="footer-links mt-16">Career</a>
                             <a href="<?php echo base_url('Terms'); ?>" class="footer-links mt-16">Terms & Conditions</a>
+                            <a href="<?php echo base_url('Refund'); ?>" class="footer-links mt-16">Refund Policy</a>
 
                         </div>
                     </div>
@@ -290,9 +291,9 @@ hr {
             <hr>
             <div class="footer-row-3 tc" style="    text-align: center;">
                 <div class="footer-copyw tc">
-                    © <span class="current-year">2024</span>. All Rights Reserved &nbsp; &nbsp;・ &nbsp; &nbsp;
-                    <span class="_445254">ChargeSol</span>
-                    &nbsp; | &nbsp; <a href="/" class="_445254">Privacy Policy</a>
+                    © <span class="current-year">2023</span>. All Rights Reserved &nbsp; &nbsp;
+                    <span class="_445254">Chargesol Technology Private Limited </span>
+                    &nbsp; | &nbsp; <a href="/privacy" class="_445254">Privacy Policy</a>
                 </div>
             </div>
         </div>
